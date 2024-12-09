@@ -1,12 +1,11 @@
 /* Media Query for 375px (Mobile Screens) */
 @media (max-width: 375px) {
-    body{
-        padding: 19px 20px;
-        margin-left: -100px;
-      }
-    header{
-        width: 375px;
-        /* background-color: thistle; */
+ 
+    .logo img {
+        padding-left:1.25rem ;
+    }
+    .comfea h3 {
+        padding-left:1.25rem;
     }
     .contect {
        display: none;
@@ -17,98 +16,257 @@
     .drop-down-icon {
         display: block;
     }
-    .drop-down-icon img{
-       background-color: aquamarine;
+    .navigation-menu{
+        max-width: 23.4375rem;
+        margin-left:0rem ;
+        
     }
-
+    .drop-down-icon {
+        position: absolute;
+        right: 1.25rem;
+    }
+    .union-logo {
+        margin-left: -5rem;
+    }
 
     /* main container for mobile device */
     .main-container-content {
-        width:375px;
-        background-color: red;
-        padding: 19px 20px;
+        width:23.4375rem;
+        padding: 1.25rem;
+        margin-left: 0rem;
     }
     .explore-property {
-        flex-direction: column;
+         flex-direction: column;
         align-items: flex-start;
-        justify-content:flex-start;
-        max-width: 335px;
-        height: 270px;
-        display: inline-block;
-        background-color: green;
+        height: 16.875rem; 
+        width: 20.9375rem;
+    }
+    .explore-property-left h2{
+        max-width:20.9375rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
     }
     .explore-property-right p{
         font-weight: 400;
-        font-size: 40px;
+        font-size: 1rem;
+        max-width: 20.9375rem;
     }
     .hero-img img {
-        width: 335px;
-        height: 335px;
+        width:20.9375rem;
+        height: 20.9375rem;
+        margin-bottom: 3.5rem;
     }
     .discount {
-        width: 335px;
-        height: 428px;
-        background-color: aquamarine;
+        width: 20.9375rem;
+        height: 26.75rem;
         flex-direction: column;
-        gap: 24px;
+        gap: 1.5rem;
+        margin-bottom: 3.5rem;
     }
     .pioneer-excellent {
-        max-width: 335px;
-        height: 3000px;
-        background-color: blue;
+        max-width:20.9375rem;
+        height: 93.75rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 3.5rem;
         
     }
     .left-property h3 {
-        max-width:335px;
-        height: 152px;
-        font-size: 32px;
+        max-width:20.9375rem;
+        height: 9.5rem;
+        font-size: 2rem;
         font-weight: 400;
-        line-height: 38px;
-        margin: 0px 0px 170px 130px;
+        line-height: 2.375rem;
+        margin: 0rem 0rem 0rem 8.125rem;
     }
     .right-property img {
-        max-width: 335px;
-        height: 335px;
-        margin-left: 155px;
+        width: 20.9375rem;
+        height:20.9375rem;
+        margin: 3rem 0rem 0rem 9.6875rem;
     }
      .p-1  {
-        max-width: 335px;
-        margin-left: 125px;
-        background-color: pink;
+        width:20.9375rem;
+        margin: 1.5rem 0rem 0rem 7.8125rem;
+        margin-left: 7.8125rem;
     }
     .trusted-bank {
-        margin-top: 800px;
-        max-width: 335px;
-        height: 350px;
-        background-color: tomato;
+        /* margin-top: 800px; */
+        max-width: 20.9375rem;
+        height: 21.875rem;
     } 
     .bank h5 {
-        /* font-size: 24px; */
-        font-weight: 400;
-        }
-        .bank-logo {
-            max-width:335px;
-            height: 144px;
-            gap: 0.5rem;
-            justify-content: center;
-            flex-wrap: wrap;
-            background-color: blueviolet;
-        }
-        .bank-logo img{
-            width: 110.93px;
-            height: 32px;
-        }
+     font-size: 2rem;
+     font-weight: 400;
+     }
+     .bank-logo {
+         width:20.9375rem;
+         height: 9rem;
+         gap: 1rem;
+         justify-content: center;
+         flex-wrap: wrap;
+         margin-top: 3rem;
+     }
+     .bank-logo img{
+         width: 6.933125rem;
+         height: 2rem;
+     }
+     .clients-content{
+        padding: 3.75rem 0rem;
+     }
+     .clients-say {
+         flex-direction: column;
+         width: 20.9375rem;
+         height: 11.6875rem;
+         padding: 0px;
+     }
+     .clients-say h3 {
+         max-width: 20.9375rem;
+         font-size: 2rem;       
+     }
+     .clients-say p {
+         font-size: 1rem;
+         font-weight: 400;
+         margin-top: -9.2rem;
+         max-width: 20.9375rem;
+         height: 7.8125rem;
+     }
+     .more-info-client {
+         flex-direction: column;
+         margin-left: -30rem;
+         padding: 3.75rem 1.25rem 3.75rem 2rem;
+         
+     }
+     .semi-colon {
+         width: 20.9375rem;
+         height: 23.4375rem;
+     }
+     .semi img {
+        width: 1.5rem;
+        height: 1.125rem;
+     }
+     .seamless h4 {
+        font-size: 2rem;
+        font-weight: 500;
+     }
+     .client img {
+         max-width: 350px;
+         height: 335px;
+         margin-top: 3.5rem;
+     }
+    .comfea-mode p {
+        font-size: 1.125rem;
+        line-height: 1.8rem;
+    }
+    .faq-property {
+        margin-left: 6.25rem;
+    }
+    .faq-property h3 {
+        font-size:1.7rem ;
+        font-weight:400 ;
+        line-height: 2.4rem;
+    }
 
-
-
+    .faq-property p{
+        width: 20.9375rem;
+        margin-top: 1.5rem;
+    }
+    .faq-images {
+        display: none;
+    }
+    .frequient {
+        width: 20.9375rem;
+        height: 100%;
+       flex-direction: column;
+       justify-content: flex-start;
+       margin: 15.625rem 0rem 0rem 0rem;
+    }
+    .right-frequent-question {
+        width:20.9375rem;
+        gap: 1rem;
+    }
+    .selling  {
+        width:20.9375rem;
+        height: 18.75rem;
+        padding:1rem;
+        gap: 1rem;
+    }
+    .sell-property-para p {
+        line-height: 1.55rem;
+    }
     /* main container for mobile device */
+
+    /* footer start */
+    .footer-section-part {
+        flex-direction: column;
+        width: 23.4375rem;
+        height: auto;
+        padding: 3.5rem 1.25rem 2.5rem 1.25rem;
+        margin-left: 0;
+
+    }
+    .footer-left-nav{
+        margin-top: 6.25rem;
+    }
+    .information-part {
+        width: 20.9375rem;
+        flex-wrap: wrap;
+    }
+    .footer-main-container {
+        flex-direction: column;
+    }
+    .left-footer{
+        flex-direction: column;
+        margin-left: -43.125rem;
+    }
+    .agency h6{
+        width: 20.9375rem;
+    }
+    .follow-us  ul{
+        display: flex;
+        flex-wrap: wrap;
+        width:20.9375rem;
+        height: 6.6875rem;
+        margin-left: -6.25rem;
+        
+    }
+    /* .footer-contect-nav  {
+        margin-top: 17.125rem;
+    } */
+    .footer-contect-nav p a {
+        margin:  10rem 0rem 0rem -6.25rem;
+    }
+    .footer-contect-nav {
+        margin-top: -9.375rem;
+    }
+    .right-footer {
+        width: 20.9375rem;
+        margin-left: -61.875rem;
+    }
+    .footer-nav {
+        margin-top: -3.125rem;
+    }
+    .footer-left-nav {
+        flex-direction: column;
+    }
 }
+.copyright {
+    width: 20.9375rem;
+    gap: 1.5rem;
+    margin: 32rem 0rem 7rem 00px;
+    border-top: 0.0625rem solid white;
+    flex-direction: column;
+}
+
+
+
+
 
 /* Media Query for 768px (Tablet Screens) */
 @media (max-width: 768px) {
-   
+    .navigation-menu {
+        max-width: 48rem;
+        background-color: red;
+    }
 }
 

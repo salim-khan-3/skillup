@@ -1,31 +1,306 @@
 @media (max-width: 375px){
-    /* .navigation-menu{
-        width: 375rem;
-        background-color: red;
-        flex-direction: column;
-        gap: 5px;
-    } */
+    .navigation-menu{
+        width: 23.4375rem;
+        gap: 0.3125rem;
+        align-items: center;
+        padding: 1.1875rem 1.25rem;
+    } 
 
-.main-content-container {
-    width: 375px;
-    background-color: tan;
-    padding: 60px 20px;
-    background-color: goldenrod;
+.drop-down-icon {
+    display: block;
 }
-.hero-img img {
-    width: 375px;
 
+.hero-img img {
+   width: 23.4375rem;
+   height:39.375rem;
+}
+
+.connect-us, .contect {
+    display: none;
 }
 .real-estate {
-    width: 335px;
-    height: 183px;
-    margin:-100px auto;
-    background-color: bisque;
+    width: 20.9375rem;
+    height: 11.4375rem;
+    margin:-6.25rem auto;
 }
 .real-estate h3 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 38.4px;
+    line-height: 2.4rem;
 }
+.discover {
+    margin-left: -3.75rem;
+    width: 20.9375rem;
+    height: 14.5rem;
+    margin-top: -46.875rem;
+    position: relative;
+}
+.discover p, .discover b {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.icon {
+    top: -15rem;
+    left: 3.125rem;
+    position: absolute;
+}
+.main-content-container {
+    width: 23.4375rem;
+    padding: 3.75rem 1.25rem;
+}
+.my-commit {
+    flex-direction: column;
+    width: 20.9375rem;
+    height: 42.625rem;
+    margin-top: 16rem;
+}
+.right-commitment {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.9375rem;
+}
+.learn-more {
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+}
+.right-commitment {
+    width: 20.9375rem;
+    height: 55.5625rem;  
+}
+.property {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 8rem 0rem 62.5rem 0rem;
+}
+.property-one img {
+    width: 20.9375rem;
+}
+.main-property-one {
+    margin-top: 2rem;
+}
+.expert {
+    width: 20.9375rem;
+    text-align: center;
+}
+.mobile_block {
+    display: none;
+}
+.house {
+    flex-direction: column;
+    width: 20.9375rem;
+    height: 100%;
+}
+.asari-parmata{
+    width: 20.9375rem;
+}
+.saler-container img{
+    width:20.9375rem ;
+}
+.btn-3 {
+    width: 99px;
+    height: 36px;
+
+}
+.property-list {
+    height:11.6875rem;
+    width: 20.9375rem;
+    margin: -13.175rem 0rem 12.5rem;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+.left-property-list, .right-property-list {
+    width: 20.9375rem;
+
+}
+.main_revove_price{
+    display: none;
+}
+.top_wrapper{
+    margin-top: -100px;
+}
+.expand_wrapper{
+    margin-top: -14.125rem;
+}
+.commom-room {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.view {
+    margin-top: -2.75rem;
+}
+.faq-property h3 {
+    width: 20.9375rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.faq-property p {
+    width: 20.9375rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.faq-images img {
+    display: none;
+}
+.frequient {
+    flex-direction: column;
+    width: 20.9375rem;
+    margin:0rem 0rem 25.5rem 6.25rem;
+}
+.buy-process, .selling, .service-management {
+    margin-left: 5rem;
+}
+.service {
+    width: 20.9375rem;
+    font-size: 1.125rem;
+    line-height: 1.7437rem;
+}
+.service p{
+    font-size: 1.125rem;
+    line-height: 1.7437rem;
+}
+.selling {
+    width: 20.9375rem;
+    height: 15.875rem;
+}
+.sell-property p {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.sell-property-para p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.55rem;
+}
+.estate-laft {
+    width: 20.9375rem;
+}
+.estate-laft h3 {
+    display: none;
+}
+.estate-laft h6 {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.estate-right {
+    width: 20.9375rem;
+}
+.estate-right p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.real-estate-section{
+    flex-direction: column;
+    gap: 20px;
+    margin-left: -470px;
+}
+.kitchen-img img{
+    width: 104px;
+    height: 119px;
+}
+.kitchen-part{
+    flex-direction: column;
+    width: 20.9375rem;
+}
+.kitchen, .living-room {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.kitchen{
+    width: 20.9375rem;
+    margin-left: 1rem;
+}
+.living-room{
+    width: 20.9375rem;
+    margin-left: 8px;
+}
+.bedroom-decor {
+    display: none;
+}
+.date p {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.design-idea p {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+.main-circle {
+    display: none;
+}
+.D_hideable_part{
+    display: block;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0rem 5.9375rem;
+}
+.circle {
+    gap: 1.5rem;
+    width: 20.9375rem;
+}
+.comfortable-form {
+    width: 21.4375rem;
+    height: 50rem;
+    /* padding: 2.5rem 1.25rem; */
+}
+.form-opacity img {
+    width: 21.4375rem;
+    height: 50rem;
+   
+}
+.buy {
+    width: 18rem;
+}
+.design-idea {
+    overflow: hidden;
+}
+.design-idea p{
+   width: 13.4375rem;
+   height: 3.8rem;
+}
+.comfort-form {
+    width: 303px;
+    height: 268px;
+    margin-left: -30px;
+    margin-top: -300px;
+}
+.comfort-form h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.comfort-form p{
+    width: 303px;
+    height: 268px;
+}
+.find-out {
+    flex-direction: column;
+}
+.info-form{
+    
+    width: 303px;
+    height: 412px;
+}
+.textarea{
+    width: 271px;
+    height: 204px;
+}
+.info-form input {
+    width: 271px;
+    height: 25px;
+}
+.send-msg {
+    width: 100%;
+}
+
+}
+
+
+
+
+@media (max-width:768px) {
 
 }

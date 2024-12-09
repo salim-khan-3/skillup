@@ -82,13 +82,13 @@
 .explore-property {
     width: 80rem;
     height: 9.625rem;
-    margin: 5rem auto;
+    margin:5rem 0rem 3.5rem 0rem;
     display: flex;
-    align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 .explore-property-left {
     width:35.1875rem;
+    margin-bottom: 1.5rem;
 }
 .explore-property-left h2{
     font-size: 4rem;
@@ -412,8 +412,9 @@ line-height: 3.34rem;
     display: flex;
     padding: 1rem 0rem;
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-    border-top:  0.0625rem  solid rgb(116, 118, 119);
+    /* border-top:  0.0625rem  solid rgb(116, 118, 119); */
 }
 .backup p, .last-para p, .last-footer-logo p{
   color: var(--white);
