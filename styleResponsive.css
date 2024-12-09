@@ -1,0 +1,31 @@
+@media (max-width: 375px){
+    /* .navigation-menu{
+        width: 375rem;
+        background-color: red;
+        flex-direction: column;
+        gap: 5px;
+    } */
+
+.main-content-container {
+    width: 375px;
+    background-color: tan;
+    padding: 60px 20px;
+    background-color: goldenrod;
+}
+.hero-img img {
+    width: 375px;
+
+}
+.real-estate {
+    width: 335px;
+    height: 183px;
+    margin:-100px auto;
+    background-color: bisque;
+}
+.real-estate h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+}
+
+}

@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white: rgba(252, 252, 252, 1);
+    --black:rgba(24, 24, 27, 1);
+    --grey:rgba(24, 24, 27, 1);
+    --grey-1:rgba(244, 244, 245, 1);
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap');
+  body{
+    width: 90rem;
+    margin: 0 auto;
+    font-family: "Roboto Flex", sans-serif;;
+  }
+/* navigation manu start  */
+
+.logo {
+    width:1.4937rem;
+    height: 1.5rem;
+}
+.comfea {
+   font-weight: 900;
+   font-size:1.25rem;
+   line-height: 1.6875rem;
+   color: var(--black);
+}
+.union-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.connect-us ul li {
+    list-style: none;
+}
+.connect-us ul li a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding: 0.25rem 0.625rem;
+}
+.connect-us ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20.75rem;
+    padding: 1.188rem 5rem;
+    width:90rem;
+    z-index: 1;
+}
+.btn1 a {
+  text-decoration: none;
+  color:var(--white);
+  font-weight: 500;
+  font-size: 1rem;
+}
+.btn1  {
+    padding: 0.625rem 1.125rem;
+    border: none;
+    border-radius:0.625rem;
+    background-color: var(--black);
+}
+
+/* navigation manu end */
+
+/* main section container start  */
+.main-section-container {
+    width: 90rem;
+    height: 57.25rem;
+    padding: 5rem;
+    margin-top: 3.5rem;
+}
+.supporting-text {
+    width: 80rem;
+    text-align: center;
+}
+.supporting-text h3 {
+    font-size: 3.25rem;
+    font-weight: 400;
+}
+.supporting-text  p{
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+
+.main-form{
+    width: 38.25rem;
+    height: 36.625rem;
+}
+
+.Contant-form {
+    display: flex;
+    gap: 3.5rem;
+    width: 80rem;
+    height: 36.625rem;
+    margin-top: 3.5rem;
+}
+
+/* contect form start  */
+.name {
+    display: flex;
+    gap:1rem;
+}
+.input-name{
+   width: 13.4375rem;
+   height: 1.5625rem;
+   border: none;
+   outline: none;
+}
+.email{
+    width: 38.25rem;
+    height:4.875rem;
+    border: none;
+    outline: none;
+}
+.email-input {
+    margin-top: 1rem;
+    height: 4.875rem;
+}
+.email-input-email {
+    position: absolute;
+}
+.phone-number {
+    width: 38.25rem;
+    height: 4.875rem;
+    margin-top: 1rem;
+    background-color:var(--white);
+ }
+.select-number{
+    padding: 0.625rem 0rem 0.625rem 0.875rem;
+}
+.select-number option {
+    font-weight: 400;
+    font-size: 1rem;
+}
+.select-own {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2.8125rem;
+    border-top: 1px solid var(--grey);
+}
+.input-field {
+    width: 100%;
+    font-size: 1rem;
+}
+.number {
+    padding: 0.625rem 0.875rem 0.625rem 0.75rem;
+    width: 100%;
+}
+.phone p {
+    margin-bottom: 0.5rem;
+}
+.input-field, .select-number {
+    border: none;
+    outline: none;
+}
+.message-container {
+    margin-top: 1rem;
+}
+.textarea {
+    
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid var(--grey); */
+}
+.message-container {
+    width: 100%;
+    height: 14.8125rem;
+}
+#message-container{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0.75rem 0.875rem 0.75rem 0.875rem;
+}
+.message p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+#checkbox {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 0.0625rem;
+    margin-bottom: 2rem;
+}
+
+.checkbox{
+    margin-top: 1rem;
+}
+.btn4 a {
+   text-decoration: none;
+   color: var(--white);
+}
+.btn4 {
+    width: 38.25rem;
+    height: 3rem;
+    /* margin-top: 2rem; */
+    border-radius: 0.75rem;
+    background-color: var(--black);
+    padding:0.75rem 1.125rem 0.75rem 1.125rem;
+}
+.social-property {
+    width: 38.25rem ;
+    height: 22.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+}
+.social-property-1 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    gap: 2.2rem;
+}
+.social-property-2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    gap: 2.2rem;
+}
+.property-1 {
+    width: 48%;
+}
+.property-2 {
+    width: 48%;
+}
+.mail-property-2  {
+    margin-top: 0.75rem;
+}
+.mail-property-2, .para_1  {
+    font-size:1.125rem ;    
+    font-weight: 700;
+}
+.mail-property-2, .para_2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--grey);
+} 
+.para_2 {
+    margin-top: 0.25rem;
+}
+.mail-property-3 p
+{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 0.75rem;
+}
+/* footer content content area start  */
+.footer-section-part {
+    width: 90rem;
+    height: 31.875rem;
+    margin-top: 2.5rem;
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 12.5rem;
+}
+.footer-main-container {
+    width: 83rem;
+    height: 14.375rem;
+    display: flex;
+    gap: 9.375rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.agency h6 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height:2.4rem;
+}
+.information-part  {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.general-enquries p {
+    font-style: 0.875rem;
+}
+.left-footer {
+    width:38.75rem;
+    height: 10.4375rem;
+    color: var(--white);
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.main-footer-contect, .footer-left-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--white);
+    font-size:1rem;
+    font-weight: 400;
+    line-height: 1.55rem;
+}
+.footer-home-left ul, .follow-us ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.follow-us ul li, .footer-home-left ul li {
+    list-style: none;
+}
+.follow-us ul li a, .footer-home-left ul li a, .footer-contect-nav a{
+    text-decoration: none;
+    color: var(--white);
+}
+.follow-us {
+    width:20.375rem;
+    height: 14.375rem;
+    margin-right: -15.625rem;
+}
+.footer-contect-nav  p{
+    margin: 12.5rem 0 1rem 0;
+}
+.copyright {
+    width: 83rem;
+    height: 5rem;
+    margin: 5rem auto;
+    display: flex;
+    padding: 1rem 0rem;
+    align-items: center;
+    justify-content: space-between;
+    border-top:  0.0625rem  solid rgb(116, 118, 119);
+}
+.backup p, .last-para p, .last-footer-logo p{
+  color: var(--white);
+}
+.last-footer-logo, .back-to-up {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.1875rem;
+}
+/* footer content content area end */
+/* main content end */
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 5rem;
+}

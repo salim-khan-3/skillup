@@ -1,0 +1,114 @@
+/* Media Query for 375px (Mobile Screens) */
+@media (max-width: 375px) {
+    body{
+        padding: 19px 20px;
+        margin-left: -100px;
+      }
+    header{
+        width: 375px;
+        /* background-color: thistle; */
+    }
+    .contect {
+       display: none;
+    }
+    .connect-us {
+        display: none;
+    }
+    .drop-down-icon {
+        display: block;
+    }
+    .drop-down-icon img{
+       background-color: aquamarine;
+    }
+
+
+    /* main container for mobile device */
+    .main-container-content {
+        width:375px;
+        background-color: red;
+        padding: 19px 20px;
+    }
+    .explore-property {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:flex-start;
+        max-width: 335px;
+        height: 270px;
+        display: inline-block;
+        background-color: green;
+    }
+    .explore-property-right p{
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .hero-img img {
+        width: 335px;
+        height: 335px;
+    }
+    .discount {
+        width: 335px;
+        height: 428px;
+        background-color: aquamarine;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .pioneer-excellent {
+        max-width: 335px;
+        height: 3000px;
+        background-color: blue;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .left-property h3 {
+        max-width:335px;
+        height: 152px;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38px;
+        margin: 0px 0px 170px 130px;
+    }
+    .right-property img {
+        max-width: 335px;
+        height: 335px;
+        margin-left: 155px;
+    }
+     .p-1  {
+        max-width: 335px;
+        margin-left: 125px;
+        background-color: pink;
+    }
+    .trusted-bank {
+        margin-top: 800px;
+        max-width: 335px;
+        height: 350px;
+        background-color: tomato;
+    } 
+    .bank h5 {
+        /* font-size: 24px; */
+        font-weight: 400;
+        }
+        .bank-logo {
+            max-width:335px;
+            height: 144px;
+            gap: 0.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: blueviolet;
+        }
+        .bank-logo img{
+            width: 110.93px;
+            height: 32px;
+        }
+
+
+
+    /* main container for mobile device */
+}
+
+/* Media Query for 768px (Tablet Screens) */
+@media (max-width: 768px) {
+   
+}
+
