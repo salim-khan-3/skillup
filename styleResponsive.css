@@ -1,8 +1,6 @@
 @media (max-width: 375px){
-
     body{
-        max-width: ;
-        background-color: gray;
+        margin: 0;
       }
     .navigation-menu{
         width: 23.4375rem;
@@ -16,7 +14,7 @@
 }
 
 .hero-img img {
-   width: 300px;
+   width: 375px;
    height:39.375rem;
 }
 .discover-right{
