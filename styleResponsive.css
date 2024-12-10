@@ -14,7 +14,9 @@
    width: 23.4375rem;
    height:39.375rem;
 }
-
+.discover-right{
+    display: none;
+}
 .connect-us, .contect {
     display: none;
 }
@@ -262,6 +264,14 @@
    width: 13.4375rem;
    height: 3.8rem;
 }
+.textarea{
+    margin-top: 1rem;
+    width: 16.9375rem;
+    height: 12.75rem;
+    background-color: var(--white);
+}
+
+/* contact form start  */
 .comfort-form {
     width: 303px;
     height: 268px;
@@ -271,16 +281,19 @@
 .comfort-form h2{
     font-size: 2.5rem;
     font-weight: 500;
+    top: -35rem;
 }
 .comfort-form p{
     width: 303px;
     height: 268px;
+    top: 35rem;
 }
 .find-out {
     flex-direction: column;
 }
 .info-form{
-    
+    left: 1.3rem;
+    top: -28.125rem;
     width: 303px;
     height: 412px;
 }
@@ -295,9 +308,101 @@
 .send-msg {
     width: 100%;
 }
+.info-form input {
+    width: 271px;
+    height: 25px;
+}
+.textarea {
+    width: 271px;
+    height: 204px;
+    margin-top: -50px;
+
+}
+.contact_label {
+    margin-top: -1rem;
+}
+.send-msg {
+    padding: 0.625rem 6rem;
+    background-color: var(--black);
+    margin-top: 1rem;
+    border-radius:0.75rem;
+}
+.comfort-form h2{
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+.comfort-form p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height:1.55rem;
+}
+/* contact form end */
+
+/* start responsive footer part  */
+.footer-section-part {
+    width: 23.4375rem;
+    height: auto;
+    padding: 3.5rem 1.25rem 2.5rem 1.25rem;
+}
+.footer-main-container {
+    flex-direction: column;
+    width: 20.9375rem;
+    height: 39.3125rem;
+    gap: 5rem;
+}
+.left-footer {
+    width: 100%;
+}
+.information-part  {
+    width: 100%;
+    flex-wrap: wrap;
+}
+.footer-left-nav{
+    width: 100%;
+    gap: 0px;
+    flex-direction: column;
+}
+.footer-nav {
+    width: 100%;
+    height: 9.25rem;
+    flex-wrap: wrap;
+}
+.follow-us {
+    width: 20.9375rem;
+    height: 4.125rem;
+} 
+
+.footer-contect-nav {
+    margin-top: -10rem;
+    margin-left: -5rem; 
+   
+}
+
+.right-footer {
+    margin-left: -150px;
+}
+.follow-us ul{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+} 
+.copyright {
+    width: 100%;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+/* emd responsive footer part  */
+
 
 }
 
+
+
+/* main footer start  */
+
+
+/* main footer start  */
 
 
 

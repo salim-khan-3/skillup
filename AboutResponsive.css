@@ -230,9 +230,6 @@
         margin-left: -6.25rem;
         
     }
-    /* .footer-contect-nav  {
-        margin-top: 17.125rem;
-    } */
     .footer-contect-nav p a {
         margin:  10rem 0rem 0rem -6.25rem;
     }
@@ -244,7 +241,7 @@
         margin-left: -61.875rem;
     }
     .footer-nav {
-        margin-top: -3.125rem;
+        margin: -3.125rem 0rem 0rem -8rem;
     }
     .footer-left-nav {
         flex-direction: column;
@@ -265,8 +262,8 @@
 /* Media Query for 768px (Tablet Screens) */
 @media (max-width: 768px) {
     .navigation-menu {
-        max-width: 48rem;
-        background-color: red;
+        /* max-width: 48rem;
+        background-color: red; */
     }
 }
 
