@@ -72,7 +72,7 @@
     width: 375px;
     padding: 60px 20px;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     }
 .left-commitment {
    width:335px;
