@@ -378,9 +378,9 @@ textarea{
 /* footer section part start */
 .footer-section-part {
     width: 375px;
-    height: auto;
+    height:937px;
     margin-top: -375px;
-    padding: 56px 20px 40px;
+    padding: 56px 20px 40px 20px;
 }
 
 .footer-main-container {
@@ -402,7 +402,7 @@ textarea{
 .copyright {
     width: 335px;
     gap: 24px;
-    margin: -70px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     flex-direction: column;
 }
 .footer-contect-nav {
@@ -443,8 +443,12 @@ textarea{
 }
 /* footer section part end */
 
-
-
+.footer-contect-nav  p{
+    margin:0;
+}
+.comfortable-form {
+    margin: 0;
+}
 
 
 }
