@@ -166,6 +166,7 @@
     border-radius: 0.625rem;
     border: none;
     background-color: var(--black);
+    width: 8rem;
 }
 .btn-2 a{
     color: var(--white);
@@ -227,9 +228,9 @@
 }
 .left-property-list h3 {
     font-weight:400;
-    font-size: 3.25rem;
-    
+    font-size: 3.25rem; 
 }
+
 .right-property-list {
     width: 35.8125rem;
 }
@@ -352,7 +353,7 @@ hr {
     justify-content: space-between;
     width:80rem;
     height: 42.6875rem;
-    margin:5rem auto;
+    margin:10rem auto;
     gap: 3.5rem;
 }
 .service {
@@ -386,7 +387,7 @@ hr {
     flex-direction: column;
     gap: 1rem;
 }
-estate-laft h6 {
+.estate-laft h6 {
     display: none;
 }
 .selling {
@@ -479,6 +480,9 @@ estate-laft h6 {
     justify-content: space-between;
     gap: 1.5rem;
 }
+.middle-time-idea {
+    display: none;
+ }
 .kitchen{
     width: 25.625rem;
 }
@@ -571,11 +575,12 @@ estate-laft h6 {
     outline: none;
     background-color: var(--white);
 }
-.textarea{
+textarea{
     margin-top: 1rem;
     width: 24.75rem;
     height: 12.75rem;
-    border: 1px solid var(--grey1);
+    border: 1px solid var(--grey);
+    outline: none;
     background-color: var(--white);
 }
 .send-msg {
