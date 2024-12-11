@@ -1,4 +1,7 @@
 @media (max-width: 375px){
+    body{
+       margin: 0;
+      }
     .header{
         width: 375px;
     }

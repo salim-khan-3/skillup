@@ -15,7 +15,8 @@
     width: 90rem;
     /* height: 7050px; */
     margin: 0 auto;
-    font-family: "Roboto Flex", sans-serif;;
+    font-family: "Roboto Flex", sans-serif;
+    
   }
 /* navigation manu start  */
 
@@ -59,6 +60,7 @@
     width: 90rem;
     position: absolute;
     z-index: 1;
+    
 }
 .btn1 a {
   text-decoration: none;
