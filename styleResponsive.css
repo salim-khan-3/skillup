@@ -1,5 +1,7 @@
 @media (max-width: 375px){
-
+    body{
+        margin: 0;
+      }
     /* navigation manu start  */
     .navigation-menu{
         width: 375px;
@@ -75,14 +77,17 @@
 }
 .right-commitment {
     width: 335px;
-
     
+}
+.real-estate-section{
+    margin: 0;
 }
 .my-commit {
     width: 335px;
     height: auto;
     gap: 24px;
     flex-direction: column;
+    margin: 0;
 }
 .property-one img {
     width: 335px;
@@ -99,6 +104,7 @@
     height: auto;
     gap: 2rem;
     flex-direction: column;
+    margin: 0;
 }
    /* end main content container part  */
 
@@ -108,6 +114,7 @@
     width: 335px;
     height: 187px;
     flex-direction: column;
+    margin: 0;
 }
 .left-property-list {
     width: 335px;
@@ -141,6 +148,10 @@
     height: auto;
     flex-wrap: wrap;
     flex-direction: column;
+    margin: 0;
+}
+hr {
+    margin: 0;
 }
 .mobile_block {
     display: none;
@@ -167,7 +178,7 @@
 .frequient {
     width: 335px;
     height: auto;
-    margin-top: 70px;
+    margin: 70px 0px 0px 0px;
     flex-direction: column;
 }
 .faq-property {
@@ -233,6 +244,7 @@
     width: 335px;
     height: auto;
     flex-direction: column;
+    margin: 0;
 } 
 .design-idea {
     display: none;
@@ -250,6 +262,9 @@
     height: 64px;
 
  }
+ .view {
+    margin:0;
+}
  .bedroom-decor {
     display: none;
  }
@@ -303,6 +318,7 @@
     height: auto;
     display: flex;
     gap: 91.5px;
+    margin: 0;
 }
 
 /* circle arrow part end */
@@ -370,7 +386,7 @@ textarea{
 .footer-main-container {
     width: 335px;
     height: auto;
-    margin-top: -94px;
+    margin: -94px 0px 0px 0px;
     flex-direction: column;
 }
 .left-footer {
@@ -386,7 +402,7 @@ textarea{
 .copyright {
     width: 335px;
     gap: 24px;
-    margin-top: -70px;
+    margin: -70px 0px 0px 0px;
     flex-direction: column;
 }
 .footer-contect-nav {
