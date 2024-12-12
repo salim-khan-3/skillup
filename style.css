@@ -131,15 +131,22 @@
     opacity: 0.4 var(--black);
 }
 
-.icon i{
-    padding: 2rem;
+.icon {
     color: var(--white);
     background-color: var(--grey1);
-    border-radius: 50%;
+    width: 64px;
+    height:64px;
     position: absolute;
     right: 1.9rem;
     bottom: 1.4rem;
+    border-radius: 50%;
     border: 1px solid var(--white);
+}
+.icon i{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /* hero section end */
 
@@ -530,6 +537,7 @@ hr {
     align-items: center;
     justify-content: space-between;
     position: relative;
+    /* background-color: black; */
 }
 .form-opacity img{
     width: 1409px;
