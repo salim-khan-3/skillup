@@ -1,0 +1,53 @@
+@media(max-width:768px){
+    body{
+        max-width: 768px;
+        margin: 0; 
+      }
+      .navigation-menu{
+        width: 768px;
+        height: auto;
+        gap: 50px;
+        padding: 19px 30px;
+    }
+
+    /* main content container part start  */
+    .main-container-content {
+        width: 768px;
+        height: auto;
+        padding: 30px;
+        background-color: red;
+    }
+    .explore-property {
+        width:708px;
+        height: 96px;
+        margin: 0;
+        background-color: aqua;
+    }
+    .explore-property-left {
+        width: 700px;
+        height: 96px;
+    }
+    .explore-property-left h2{
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: left;
+        letter-spacing: -0.02em;
+    }
+    .explore-property-right {
+        overflow: hidden;
+    }
+    .explore-property-right p{
+        line-height: 24.8px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    /* hero img part start  */
+    .hero-img img{
+        width: 708px;
+        height: 650px;
+    }
+    /* hero img part start  */
+    /* main content container part end  */
+}

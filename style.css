@@ -12,13 +12,16 @@
   }
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap');
   body{
-     width: 90rem;
-    margin: 0 auto;
+    /* width: 90rem;
+    margin: 0 auto; */
     font-family: "Roboto Flex", sans-serif;
     
   }
 /* navigation manu start  */
-
+.header {
+    width: 1440px;
+    margin: 0 auto;
+}
 .logo {
     width:1.4937rem;
     height: 1.5rem;
@@ -57,6 +60,7 @@
     gap: 20.75rem;
     padding: 1.188rem 5rem;
     width: 90rem;
+    margin: 0 auto;
     position: absolute;
     z-index: 1;  
 }
@@ -85,6 +89,10 @@
     align-items: center;
     gap: 6.25rem;
     margin-top:1.5625rem;
+}
+.hero-section {
+    width: 1440px;
+    margin: 0 auto;
 }
 .hero-img-crop {
     display: none;
@@ -531,7 +539,7 @@ hr {
 /* form part start  */
 .comfortable-form {
     width: 90rem;
-    margin: 2.5rem 0px 0px 1rem;
+    margin: 2.5rem auto;
 }
 .find-out {
     display: flex;
@@ -615,7 +623,7 @@ textarea{
 .footer-section-part {
     width: 90rem;
     height: 31.875rem;
-    margin-top: 2.5rem;
+    margin: 2.5rem auto;
     background-color: var(--black);
     display: flex;
     flex-direction: column;
