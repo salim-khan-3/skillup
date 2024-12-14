@@ -1,590 +1,3 @@
-@media(max-width:375px){
-    body{
-        max-width: 375px;
-        margin: 0; 
-      }
-    /* navigation manu start  */
-    header{
-        width: 375px;
-    }
-    .navigation-menu {
-        width: 375px;
-        padding: 19px 20px;
-    }
-    .connect-us {
-        display: none;
-    }
-    .contect {
-        display: none;
-    }
-    .drop-down-icon {
-        display: block;
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        right: 20px;
-    }
-    /* navigation manu end */
-
-
-    /* hero section part start  */
-    .hero-section {
-        width: 375px;
-        height: 630px;
-    }
-    .hero-img  {
-        display: none;
-    }
-    .hero-img-crop{
-        display: block;
-    }
-    .hero-img-crop img {
-        width: 375px;
-        height: 630px;
-    }
-    .discover-section{
-        width: 335px;
-        height: 232px;
-        position: absolute;
-        top: 335px;
-        left: 20px;
-    }
-     .discover-left {
-        width: 335px;
-        height: 232px;
-        position: absolute;
-        top: 0;
-        display: flex;
-        flex-direction: column;
-        left: -80px;
-        /* background-color: violet; */
-    } 
-    .discover {
-        width: 100%;
-        position: relative;
-        /* margin-top: -10px; */
-    }
-    .discover-right {
-        display: none;
-    }
-    .discover p, .discover b{
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 48px;
-    }
-    .icon {
-        left: 0;
-        bottom: 0;
-    }
-    /* hero section part end  */
-
-
-    /* second hero container part start  */
-    .main-content-container {
-        width: 375px;
-        height: auto;
-        padding: 60px 20px;
-
-    }
-    .second-hero-wrapper {
-        width: 335px;
-        height: 889px;
-        margin-top: -90px;
-    }
-    .left-commitment {
-        width: 335px;
-        height: 183px;
-        margin-top: 0px;
-    }
-    .right-commitment {
-        width: 335px;
-        line-height: 31px;
-        font-size: 20px;
-        
-    }
-    .real-estate h3 {
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 38.4px;
-    }
-    .my-commit {
-        width: 335px;
-        height: 889px;
-        gap: 24px;
-        flex-direction: column;
-    }
-    .btn-2 {
-        margin-top: 5px;
-    }
-    .learn-more {
-        width: 128px;
-        height: 45px;
-    }
-
-    /* second hero container part end  */
-
-
-    /* property container part start  */
-    .property {
-        width: 335px;
-        height:auto;
-        flex-direction: column;
-        gap: 32px;
-    }
-    .property-one img {
-        width: 335px;
-        height: 335px;
-    }
-    .main-property, .main-property-one, .main-property-two {
-        width: 335px;
-        height: 460px;
-    }
-    .expert {
-        width: 335px;
-        height: 120px;
-        text-align: center;
-        margin-top: -20px;
-    }
-    .expert h6{
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 28.5px;
-    }
-    .expert p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24.8px;
-    }
-    .main-property-one {
-        margin-top: 0;
-    }
-    /* property container part end */
-    .property-list {
-        width: 335px;
-        height: 187px;
-        flex-direction: column;
-    }
-    .left-property-list {
-        width: 335px;
-        height: auto;
-    }
-    .left-property-list h3{
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 38.4px;
-    }
-    .right-property-list{
-        width: 335px;
-        height: auto;
-    }
-    .right-property-list p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24.8px;
-        color: var(--grey1);
-    }
-    /* property list part start  */
-
-    /* house rent part start  */
-    .house {
-        width: 335px;
-        gap: 60px;
-    }
-    .mobile_block {
-        display: none;
-    }
-    .asari-parmata {
-      width: 335px;
-      height: 497px;
-    }
-    .saler-container img{
-        width: 335px;
-        height: 339px;
-    }
-    .button-wrapper {
-        width: 225px;
-        height: 36px;
-    }
-    .btn-3 img{
-        width: 20px;
-        height: 20px;
-    }
-    .main_revove_price {
-        display: none;
-    }
-    .expand_wrapper {
-        margin-top: -200px;
-    }
-    .house-price {
-        width: 335px;
-        height: 142px;
-    }
-    .location {
-        width: 335px;
-    }
-    .icon-para {
-        width: 335px;
-        height: 20px;
-    }
-    .bedroom-wrapper {
-        width: 335px;
-        height: 57px;
-    }
-    .commom-room {
-        width: 83px;
-        height: 57px;
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
-    .view {
-        margin-top: 0;
-    }
-    /* house rent part end */
-
-
-    /* frequent part start  */
-   .faq-images {
-    display: none;
-   }
-   .frequient {
-    width: 335px;
-    height: auto;
-    flex-direction: column;
-   }
-   .left-frequent-question 
-   {
-    width: 335px;
-    height: auto;
-   }
-   .faq-property {
-    width: 335px;
-    height: auto;
-   }
-   .faq-property {
-    width: 335px;
-    height: auto;
-   }
-   .faq-property {
-    width: 335px;
-    height: auto;
-   }
-   .right-frequent-question {
-    width: 335px;
-    }
-    .buy-process, .service-management {
-        width: 335px;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-    .service {
-        width: 335px;
-        height: 80px;
-        padding: 16px;
-    }
-    .buy {
-        width: 279px;
-        height: 56px;
-    }
-    .minus-icon, .plus {
-        width: 24px;
-        height: 24px;
-    }
-    .selling {
-        width: 335px;
-        height: 254px;
-        padding: 16px;
-    }
-    .market-price {
-        width: 303px;
-        height: 56px;
-    }
-    .sell-property {
-        width: 279px;
-        height: 100%;
-    }
-    .sell-property {
-        font-size:18px ;
-        font-weight: 700;
-        line-height: 27.9px;
-    }
-    .sell-property  {
-        width: 303px;
-        height: auto;
-    }
-    .sell-property p {
-        font-size:16px;
-        font-weight: 400;
-        line-height: 24.8px;
-        margin-top: 16px;
-    }
-    /* frequent part end */
-
-
-    /* real easte part start  */
-    .real-estate-section{
-        width: 335px;
-        height: 162px;
-        gap: 0px;
-        flex-direction: column; 
-    }
-    .estate-laft {
-        width: 335px;
-        height: auto;
-    }
-    .estate-laft h3{
-        font-size: 32px;
-        font-weight: 400;
-        line-height: 38.4px;
-        text-align: left;  
-        
-    }
-    .estate-right p {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24.8px;
-        text-align: left;   
-    }
-    .estate-right  {
-        width: 335px;
-        height: 100px;
-    }
-    /* real easte part end */
-
-
-    /* kitchen part start  */
-    .bedroom-decor {
-        display: none;
-    }
-    .kitchen-part {
-        width: 335px;
-        height: auto;
-        flex-direction: column;
-        gap: 16px;
-    }
-    .kitchen-img {
-        width: 104px;
-        height: 119px;
-    }
-    .kitchen-img img {
-        width: 104px;
-        height: 119px;
-    }
-    .design-idea {
-        display:none;
-    }
-    .kitchen, .living-room{
-        width: 335px;
-        height: 119px;
-        display: flex;
-        gap: 16px;
-    }
-    .middle-time-idea{
-        display: block;
-    }
-    .clock {
-        display: flex;
-        align-items: flex-start;
-        gap: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-    .kitchen-para {
-        width: 215px;
-        height: 119px;
-    }
-    .date {
-        width: 74px;
-        height: 19px;
-        margin-top: -15px;
-    }
-    .date p{
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 18.6px;
-    }
-    .middle-time-idea {
-        width: 215px;
-        height: 55px;
-        /* margin-top: -5px; */
-        overflow: hidden;
-    }
-    .middle-time-idea p{
-        font-size: 24px;
-        font-weight: bold;
-        line-height: 28.5px;
-    }
-    .reading-time{
-        width: 180px;
-        height: 20px;
-    }
-    .circle {
-        width: 335px;
-        height: 40px;
-    }
-    .D_hideable_part {
-        display: block;
-        display: flex;
-        gap: 16px;
-    }
-    .main-circle {
-        display: none;
-    }
-    .arrow {
-        width: 335px;;
-        height: 40px;
-        gap: 80px;
-    }
-    /* kitchen part end */
-
-    /* contect form part start  */
-    .comfortable-form {
-        width: 375px;
-        height: 880px;
-        padding: 40px 16px;
-        margin: 0;
-    } 
-    .form-opacity{
-        width: 343px;
-        height: 800px;
-    }
-    .form-opacity img{
-        width: 343px;
-        height: 800px;
-    }
-    .find-out {
-        width: 343px;
-        height: 800px;
-        top: -800px;
-        position: relative;
-        border-radius: 40px;
-    }
-    .form {
-        width: 343px;
-        height: 800px;
-        border-radius: 40px;
-        position: absolute;
-    }
-    .info-form{
-        top: 350px;
-        left: 20px;
-        width: 303px;
-        padding: 20px 20px;
-    }
-    .common-input{
-        width: 271px;
-        height:25px ;
-    }
-    .common-input input{
-        width: 271px;
-        height: 25px;
-        padding: 5px 5px 5px 0px;
-    }
-    textarea{
-        width: 271px;
-        height: 204px;
-        padding: 20px 20px;
-        margin-top: 40px;
-    }
-    .send-msg {
-        padding: 10px 115px;
-    }
-    .comfort-form{
-        width: 303px;
-        height: 268px;
-        top: 20px;
-        left: 20px;
-    }
-     .comfort-form h2{
-        width:303px ;
-        font-weight: 500;
-        margin-left: 0;
-        font-size: 40px;
-        line-height: 48px;
-    } 
-    /* contect form part end */
-
-    /* footer content part start  */
-    .footer-section-part {
-        width: 375px;
-        height:937px;
-        margin-top: 0px;
-        padding: 56px 20px 40px 20px;
-    }
-    .footer-main-container {
-        width: 335px;
-        height: 629px;
-        flex-direction: column;
-        gap: 10px;
-        margin: 0;
-    }
-    .left-footer {
-        width:335px;
-        height: 326px;
-        gap: 1.5rem;
-        flex-direction: column;
-        margin-top: 5rem;
-    }
-    .footer-nav {
-        margin-top: 0px;
-    }
-    .agency{
-        width: 335px;
-    }
-    .agency h6 {
-        font-size: 32px;
-        font-weight: 400;
-        line-height:38.4px;
-    }
-    .footer-contect-nav {
-        width: 335px;
-        height: 107px;
-    }
-    .follow-us {
-        width: 335px;
-    }
-    .follow-us ul{
-        display: flex;
-        gap: 16px;
-        flex-wrap: wrap;
-    }
-    .footer-contect-nav  p{
-        margin:0px;
-    }
-    .footer-left-nav {
-        width: 335px;
-        height: 279px;
-        flex-direction: column;
-        gap: 0px;
-        gap: 24px;
-        align-items: flex-start;
-    }
-    .copyright {
-        width: 335px;
-        height: 172px;
-        margin: 0px;
-        gap: 24px;
-        flex-direction: column;
-    }
-    .information-part  {
-        width: 335px;
-        height: 142px;
-        flex-wrap: wrap;
-        gap: 24px;
-    }
-    .general-enquries p {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20px;
-    }
-    /* footer content part start  */
-}
-
-
-
-
 @media(max-width:768px){
     body{
         max-width: 768px;
@@ -624,9 +37,7 @@
         width: 554px;
         height: 124px;
      }
-     .discover {
-      
-     }
+   
      .discover p{
         font-size: 52px;
         font-weight: 700;
@@ -886,9 +297,6 @@
         width: 668px;
         margin-top: -150px;
     }
-    .arrow {
-       
-    }
     /* circle part end */
     /* main container part end  */
 
@@ -974,4 +382,608 @@
 
  
 }
+
+
+
+
+@media(max-width:375px){
+    body{
+        width: 375px;
+      }
+    /* navigation manu start  */
+    header{
+        width: 375px;
+    }
+    .navigation-menu {
+        width: 375px;
+        padding: 19px 20px;
+    }
+    .connect-us {
+        display: none;
+    }
+    .contect {
+        display: none;
+    }
+    .drop-down-icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+    }
+    /* navigation manu end */
+
+
+    /* hero section part start  */
+    .hero-section {
+        width: 375px;
+        height: 630px;
+    }
+    .hero-img  {
+        display: none;
+    }
+    .hero-img-crop{
+        display: block;
+    }
+    .hero-img-crop img {
+        width: 375px;
+        height: 630px;
+    }
+    .discover-section{
+        width: 335px;
+        height: 232px;
+        position: absolute;
+        top: 335px;
+        left: 20px;
+    }
+     .discover-left {
+        width: 335px;
+        height: 232px;
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        left: -80px;
+        /* background-color: violet; */
+    } 
+    .discover {
+        width: 100%;
+        position: relative;
+        /* margin-top: -10px; */
+    }
+    .discover-right {
+        display: none;
+    }
+    .discover p, .discover b{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+    .icon {
+        left: 0;
+        bottom: 0;
+    }
+    /* hero section part end  */
+
+
+    /* second hero container part start  */
+    .main-content-container {
+        width: 375px;
+        height: auto;
+        padding: 60px 20px;
+        margin: 0;
+
+    }
+    .second-hero-wrapper {
+        width: 335px;
+        height: 889px;
+        margin-top: -90px;
+    }
+    .left-commitment {
+        width: 335px;
+        height: 183px;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+    .right-commitment {
+        width: 335px;
+        line-height: 31px;
+        font-size: 20px;
+        
+    }
+    .real-estate{
+        width: 335px;
+    }
+    .real-estate h3 {
+        width: 335px;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38.4px;
+    }
+    .my-commit {
+        width: 335px;
+        height: 889px;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .btn-2 {
+        margin-top: 5px;
+    }
+    .learn-more {
+        width: 128px;
+        height: 45px;
+    }
+
+    /* second hero container part end  */
+
+
+    /* property container part start  */
+    .property {
+        width: 335px;
+        height:auto;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .property-one img {
+        width: 335px;
+        height: 335px;
+    }
+    .main-property, .main-property-one, .main-property-two {
+        width: 335px;
+        height: 460px;
+    }
+    .expert {
+        width: 335px;
+        height: 120px;
+        text-align: center;
+        margin-top: -20px;
+    }
+    .expert h6{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28.5px;
+    }
+    .expert p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+    }
+    .main-property-one {
+        margin-top: 0;
+    }
+    /* property container part end */
+    .property-list {
+        width: 335px;
+        height: 187px;
+        gap: 16px;
+        flex-direction: column;
+    }
+    .left-property-list {
+        width: 335px;
+        height: auto;
+    }
+    .left-property-list h3{
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38.4px;
+    }
+    .right-property-list{
+        width: 335px;
+        height: auto;
+    }
+    .right-property-list p{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -80px;
+        line-height:20px;
+        color: var(--grey1);
+    }
+    /* property list part start  */
+
+    /* house rent part start  */
+    .house {
+        width: 335px;
+        gap: 60px;
+    }
+    .mobile_block {
+        display: none;
+    }
+    .asari-parmata {
+      width: 335px;
+      height: 497px;
+    }
+    .saler-container img{
+        width: 335px;
+        height: 339px;
+    }
+    .button-wrapper {
+        width: 225px;
+        height: 36px;
+    }
+    .btn-3 img{
+        width: 20px;
+        height: 20px;
+    }
+    .main_revove_price {
+        display: none;
+    }
+    .expand_wrapper {
+        margin-top: -200px;
+    }
+    .house-price {
+        width: 335px;
+        height: 142px;
+    }
+    .location {
+        width: 335px;
+    }
+    .icon-para {
+        width: 335px;
+        height: 20px;
+    }
+    .bedroom-wrapper {
+        width: 335px;
+        height: 57px;
+    }
+    .commom-room {
+        width: 83px;
+        height: 57px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .view {
+        margin-top: 0;
+    }
+    /* house rent part end */
+
+
+    /* frequent part start  */
+   .faq-images {
+    display: none;
+   }
+   .frequient {
+    width: 335px;
+    height: auto;
+    flex-direction: column;
+   }
+   .left-frequent-question 
+   {
+    width: 335px;
+    height: auto;
+   }
+   .faq-property {
+    width: 335px;
+    height: auto;
+   }
+   .faq-property {
+    width: 335px;
+    height: auto;
+   }
+   .faq-property {
+    width: 335px;
+    height: auto;
+   }
+   .right-frequent-question {
+    width: 335px;
+    }
+    .buy-process, .service-management {
+        width: 335px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .service {
+        width: 335px;
+        height: 80px;
+        padding: 16px;
+    }
+    .buy {
+        width: 279px;
+        height: 56px;
+    }
+    .minus-icon, .plus {
+        width: 24px;
+        height: 24px;
+    }
+    .selling {
+        width: 335px;
+        height: 254px;
+        padding: 16px;
+    }
+    .market-price {
+        width: 303px;
+        height: 56px;
+    }
+    .sell-property {
+        width: 279px;
+        height: 100%;
+    }
+    .sell-property {
+        font-size:18px ;
+        font-weight: 700;
+        line-height: 27.9px;
+    }
+    .sell-property  {
+        width: 303px;
+        height: auto;
+    }
+    .sell-property p {
+        font-size:16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        margin-top: 16px;
+    }
+    /* frequent part end */
+
+
+    /* real easte part start  */
+    .real-estate-section{
+        width: 335px;
+        height: 162px;
+        gap: 0px;
+        flex-direction: column; 
+    }
+    .estate-laft {
+        width: 335px;
+        height: auto;
+    }
+    .estate-laft h3{
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38.4px;
+        text-align: left;  
+        
+    }
+    .estate-right p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;   
+    }
+    .estate-right  {
+        width: 335px;
+        height: 100px;
+    }
+    /* real easte part end */
+
+
+    /* kitchen part start  */
+    .bedroom-decor {
+        display: none;
+    }
+    .kitchen-part {
+        width: 335px;
+        height: auto;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .kitchen-img {
+        width: 104px;
+        height: 119px;
+    }
+    .kitchen-img img {
+        width: 104px;
+        height: 119px;
+    }
+    .design-idea {
+        display:none;
+    }
+    .kitchen, .living-room{
+        width: 335px;
+        height: 119px;
+        display: flex;
+        gap: 16px;
+    }
+    .middle-time-idea{
+        display: block;
+    }
+    .clock {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .kitchen-para {
+        width: 215px;
+        height: 119px;
+    }
+    .date {
+        width: 74px;
+        height: 19px;
+        margin-top: -15px;
+    }
+    .date p{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18.6px;
+    }
+    .middle-time-idea {
+        width: 215px;
+        height: 55px;
+        /* margin-top: -5px; */
+        overflow: hidden;
+    }
+    .middle-time-idea p{
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 28.5px;
+    }
+    .reading-time{
+        width: 180px;
+        height: 20px;
+    }
+    .circle {
+        width: 335px;
+        height: 40px;
+    }
+    .D_hideable_part {
+        display: block;
+        display: flex;
+        gap: 16px;
+    }
+    .main-circle {
+        display: none;
+    }
+    .arrow {
+        width: 335px;;
+        height: 40px;
+        gap: 80px;
+        margin: 0;
+    }
+    .living-room {
+        margin: 0;
+    }
+    .circle {
+        margin: 0;
+    }
+    /* kitchen part end */
+
+    /* contect form part start  */
+    .comfortable-form {
+        width: 375px;
+        height: 880px;
+        padding: 40px 16px;
+        margin: 0;
+    } 
+    .form-opacity{
+        width: 343px;
+        height: 800px;
+    }
+    .form-opacity img{
+        width: 343px;
+        height: 800px;
+    }
+    .find-out {
+        width: 343px;
+        height: 800px;
+        top: -800px;
+        position: relative;
+        border-radius: 40px;
+    }
+    .form {
+        width: 343px;
+        height: 800px;
+        border-radius: 40px;
+        position: absolute;
+    }
+    .info-form{
+        top: 350px;
+        left: 20px;
+        width: 303px;
+        padding: 20px 20px;
+    }
+    .common-input{
+        width: 271px;
+        height:25px ;
+    }
+    .common-input input{
+        width: 271px;
+        height: 25px;
+        padding: 5px 5px 5px 0px;
+    }
+    textarea{
+        width: 271px;
+        height: 204px;
+        padding: 20px 20px;
+        margin-top: 40px;
+    }
+    .send-msg {
+        padding: 10px 115px;
+    }
+    .comfort-form{
+        width: 303px;
+        height: 268px;
+        top: 20px;
+        left: 20px;
+    }
+     .comfort-form h2{
+        width:303px ;
+        font-weight: 500;
+        margin-left: 0;
+        font-size: 40px;
+        line-height: 48px;
+    } 
+    /* contect form part end */
+
+    /* footer content part start  */
+    .footer-section-part {
+        width: 375px;
+        height:937px;
+        margin-top: 0px;
+        padding: 56px 20px 40px 20px;
+    }
+    .footer-main-container {
+        width: 335px;
+        height: 629px;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+    .left-footer {
+        width:335px;
+        height: 326px;
+        gap: 1.5rem;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .footer-nav {
+        margin-top: 0px;
+    }
+    .agency{
+        width: 335px;
+    }
+    .agency h6 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height:38.4px;
+    }
+    .footer-contect-nav {
+        width: 335px;
+        height: 107px;
+    }
+    .follow-us {
+        width: 335px;
+    }
+    .follow-us ul{
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .footer-contect-nav  p{
+        margin:0px;
+    }
+    .footer-left-nav {
+        width: 335px;
+        height: 279px;
+        flex-direction: column;
+        gap: 0px;
+        gap: 24px;
+        align-items: flex-start;
+    }
+    .copyright {
+        width: 335px;
+        height: 172px;
+        margin: 0px;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .information-part  {
+        width: 335px;
+        height: 142px;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .general-enquries p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    /* footer content part start  */
+}
+
+
+
 
