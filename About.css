@@ -12,8 +12,6 @@
   }
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap');
   body{
-    width: 90rem;
-    margin: 0 auto;
     font-family: "Roboto Flex", sans-serif;;
   }
 /* navigation manu start  */
@@ -56,6 +54,7 @@
     gap: 20.75rem;
     padding: 1.188rem 5rem;
     width: 90rem;
+    margin: auto;
 }
 .btn1 a {
   text-decoration: none;
@@ -334,11 +333,12 @@ line-height: 3.34rem;
 }
 /* frequent question part end */
 
+
 /* footer content content area start  */
 .footer-section-part {
     width: 90rem;
     height: 31.875rem;
-    margin-top: 2.5rem;
+    margin: 2.5rem auto;
     background-color: var(--black);
     display: flex;
     flex-direction: column;
@@ -384,10 +384,13 @@ line-height: 3.34rem;
     font-weight: 400;
     line-height: 1.55rem;
 }
-.footer-home-left ul, .follow-us ul {
+.footer-home-left ul {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.follow-us ul li {
+    margin-bottom: 1rem;
 }
 .follow-us ul li, .footer-home-left ul li {
     list-style: none;
@@ -411,9 +414,8 @@ line-height: 3.34rem;
     display: flex;
     padding: 1rem 0rem;
     align-items: center;
-    flex-direction: row;
     justify-content: space-between;
-    /* border-top:  0.0625rem  solid rgb(116, 118, 119); */
+    border-top: 0.0625rem solid rgb(116, 118, 119);
 }
 .backup p, .last-para p, .last-footer-logo p{
   color: var(--white);

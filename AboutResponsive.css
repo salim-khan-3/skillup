@@ -1,4 +1,321 @@
-@media(max-width:768px){
+@media(min-width:0px)and (max-width:375px){
+        /* navigation manu start  */
+        header{
+            width: 375px;
+        }
+        .navigation-menu {
+            width: 375px;
+            padding: 19px 20px;
+        }
+        .connect-us {
+            display: none;
+        }
+        .contect {
+            display: none;
+        }
+        .drop-down-icon {
+            display: block;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            right: 20px;
+        }
+        /* navigation manu end */
+
+        /* main content part start  */
+        .main-container-content {
+            width: 375px;
+            padding: 60px 20px;
+        }
+        .explore-property {
+            width: 335px;
+            height: 270px;
+            margin: 0;
+            flex-direction: column;
+        }
+        .explore-property-left h2{
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 48px;
+            text-align: left;
+        }
+        .explore-property-right, .explore-property-left{
+            width: 100%;
+        }
+        .explore-property-right p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24.8px;    
+        }
+        .hero-img {
+            margin-top: 3.5rem;
+            width: 335px;
+            height: auto;
+        } 
+        .hero-img img{
+            width: 20.9375rem;
+            height: 20.9375rem;
+        } 
+        .discount {
+            width: 20.9375rem;
+            height: auto;
+            gap: 1.5rem;
+            text-align: center;
+            flex-direction: column;
+        }
+        .sale-number img {
+            position: absolute;
+            left: 6.875rem;
+            top: 0.9375rem;
+         }
+         /* pioneer part start  */
+         .pioneer-excellent{
+           width: 20.9375rem;
+           height: auto;
+           flex-direction: column;
+        }
+        .left-property, .right-property  {
+            width: 20.9375rem;
+        }
+        .left-property h3{
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 38.4px;
+            text-align: left;
+        }
+        .right-property img {
+            width: 20.9375rem;
+            height: 20.9375rem;
+        }
+         /* pioneer part end */
+
+         /* trusted bank part start  */
+         .trusted-bank {
+            width: 20.9375rem;
+            height: auto;
+        }
+        .bank-logo {
+           width: 20.9375rem;
+           height: 9rem;
+           padding: 0rem 1.5rem;
+           flex-wrap: wrap;
+        } 
+        .logo_same img{
+            width: 112.36px;
+            height: 32px;
+        }
+        .bank h5 {
+            font-size:1.8rem;
+            font-weight: 400;
+            line-height: 38.4px;
+            text-align: left;
+        }
+         /* trusted bank part end  */
+
+
+         /* client content part start  */
+         .clients-content {
+            width: 20.9375rem;
+            height: auto;
+            padding: 0;
+        }
+        .clients-say {
+            width: 20.9375rem;
+            height: auto;
+            gap: 1.5rem;
+            flex-direction: column;
+        }
+        .clients-say h3{
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 38.4px;
+            text-align: left;
+            width: 20.9375rem;
+        }
+        
+        .clients-say p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24.8px;
+            text-align: left;
+            width: 20.9375rem;
+        }
+        .more-info-client {
+            width: 20.9375rem;
+            height: auto;
+            margin: 0;
+            flex-direction: column;
+        }
+        .client img {
+            width: 20.9375rem;
+            height: 20.9375rem;
+        }
+         /* client content part end */
+  /* frequent part start  */
+  .faq-images {
+    display: none;
+   }
+   .frequient {
+    width: 335px;
+    height: auto;
+    flex-direction: column;
+   }
+   .left-frequent-question 
+   {
+    width: 335px;
+    height: auto;
+   }
+   .faq-property {
+    width: 335px;
+    height: auto;
+   }
+   .faq-property {
+    width: 335px;
+    height: auto;
+   }
+   .faq-property {
+    width: 335px;
+    height: auto;
+   }
+   .right-frequent-question {
+    width: 335px;
+    }
+    .buy-process, .service-management {
+        width: 335px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .service {
+        width: 335px;
+        height: 80px;
+        padding: 16px;
+    }
+    .buy {
+        width: 279px;
+        height: 56px;
+    }
+    .minus-icon, .plus {
+        width: 24px;
+        height: 24px;
+    }
+    .selling {
+        width: 335px;
+        height: 254px;
+        padding: 16px;
+    }
+    .market-price {
+        width: 303px;
+        height: 56px;
+    }
+    .sell-property {
+        width: 279px;
+        height: 100%;
+    }
+    .sell-property {
+        font-size:18px ;
+        font-weight: 700;
+        line-height: 27.9px;
+    }
+    .sell-property  {
+        width: 303px;
+        height: auto;
+    }
+    .sell-property p {
+        font-size:16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        margin-top: 16px;
+    }
+    /* frequent part end */
+
+      /* main content part end */
+
+
+     /* footer content part start  */
+     .footer-section-part {
+        width: 375px;
+        height:auto;
+        margin-top: 0px;
+        padding: 56px 20px 40px 20px;
+    }
+    .footer-main-container {
+        width: 335px;
+        height: 629px;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+    .left-footer {
+        width:335px;
+        height: 326px;
+        gap: 1.5rem;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .footer-nav {
+        margin-top: 0px;
+    }
+    .agency{
+        width: 335px;
+    }
+    .agency h6 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height:38.4px;
+    }
+    .footer-contect-nav {
+        width: 335px;
+        height: 107px;
+    }
+    .follow-us {
+        width: 335px;
+    }
+    .follow-us ul{
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .footer-contect-nav  p{
+        margin:0px;
+    }
+    .footer-left-nav {
+        width: 335px;
+        height: 279px;
+        flex-direction: column;
+        gap: 0px;
+        gap: 24px;
+        align-items: flex-start;
+    }
+    .copyright {
+        width: 335px;
+        height: 172px;
+        margin: 0px;
+        gap: 24px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .information-part  {
+        width: 335px;
+        height: 142px;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .general-enquries p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    /* footer content part start  */
+      
+}
+
+
+
+
+
+@media(min-width:376px)and (max-width:768px){
     body{
         max-width: 768px;
         margin: 0; 
@@ -15,13 +332,11 @@
         width: 768px;
         height: auto;
         padding: 30px;
-        background-color: red;
     }
     .explore-property {
         width:708px;
         height: 96px;
         margin: 0;
-        background-color: aqua;
     }
     .explore-property-left {
         width: 700px;
@@ -48,6 +363,196 @@
         width: 708px;
         height: 650px;
     }
-    /* hero img part start  */
+    /* hero img part end */
+
+    /* discount container part start  */
+    .discount {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 30px 0px 0px;
+    }
+    
+    /* discount container part end */
+
+    /* pionner content part start  */
+    .pioneer-excellent{
+        width: 708px;
+        height: auto;
+        flex-direction: column;
+    }
+    .left-property {
+        width: 708px
+    }
+    .right-property {
+        width: 708px;
+    }
+    .right-property img {
+        width:708px ;
+        height: 500px;
+    }
+    .left-property h3{
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: left;
+    }
+    /* pionner content part end */
+
+    /* trusted part start  */
+    .trusted-bank {
+        width: 708px;
+        height: auto;
+    }
+    .logo_same img {
+        width: 90.11px;
+        height: 19px;
+    }
+    .bank-logo {
+        width: 708px;
+    }
+    .bank h5 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: left;
+        }
+    /* trusted part end */
+
+    /* clients content part start  */
+    .clients-content {
+        width: 708px;
+        height: auto;
+      
+    }
+    .clients-say {
+        width: 708px;
+        height: auto;
+        gap: 0;
+        padding: 0;
+    }
+    .clients-say h3{
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: left;
+        width: 280px; 
+        height: auto;
+    }
+    .clients-say p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: left;
+        width: 380px;
+        height: auto;
+    }
+    .more-info-client {
+        width: 708px;
+        height: auto;
+    }
+    .semi-colon {
+        width: 450px;
+
+    }
+    .client img {
+        width: 320px;
+        height: 496px;
+    }
+    .semi img {
+        width: 32px;
+        height: 32px;
+    }
+    .seamless h4 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 38.4px;
+        text-align: left;
+    }
+    .comfea-mode p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 31px;
+        text-align: left;
+        }
+    /* clients content part end */
+
+    /* frequent question part start  */
+    .faq-images {
+        display: none;
+    }
+    .frequient {
+        width: 708px;
+        height: auto;
+        margin: 0;
+        flex-direction: column;
+    }
+    .faq-property{
+        width: 708px;
+        height: auto;
+        margin-left: -80px;
+    }
+    .faq-property h3 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+    }
+    .faq-property p {
+        width: 700px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+    }
+    /* frequent question part end */
+
+    
     /* main content container part end  */
+
+     /* footer content start  */
+     .footer-section-part {
+        width: 768px;
+        height: 600px;
+        margin: 0;
+        padding: 80px 20px 40px 20px;
+    }
+    .footer-main-container {
+        width: 728px;
+        height: 288px;
+        gap: 30px;
+    }
+    .information-part  {
+        width: 432px;
+        height: 132px;
+        flex-wrap: wrap;
+    }
+    .footer-left-nav {
+        width: 280px;
+        height: 230px;
+        padding-top: 0;
+    }
+    .copyright {
+        width: 728px;
+        height: 80px;
+    }
+    .follow-us{
+        width: 70px;
+        /* height: 230px; */
+    }
+    .right-footer {
+        width: 280px;
+        height: 200px;
+    }
+    .footer-nav {
+        margin: 0;
+    }
+.follow-us {
+    margin: 0;
+}
+.footer-contect-nav {
+    height: 230px;
+    margin: 0;
+}
+.footer-contect-nav  p{
+    margin: 2.6rem 0 1rem 0;
+}
+    /* footer content end */
 }
