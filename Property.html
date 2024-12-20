@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>property page</title>
     <link rel="stylesheet" href="./property.css">
+    <link rel="stylesheet" href="./PropertyResponsive.css">
 </head>
 <body>
    <header class="header">
       <nav class="navigation-menu">
           <div class="union-logo">
              <div class="logo">
-               <img src="./Assets/property/Union (1).png" alt="">
+               <a href="./blog.html" class="logo_link">
+                  <img src="./Assets/property/Union (1).png" alt="">
+               </a>
              </div>
              <div class="comfea">
-               <h3>Comfea</h3>
+               <a href="./blog.html">
+                  <h3>Comfea</h3>
+               </a>
              </div>
           </div>
           <div class="connect-us">
@@ -32,12 +37,17 @@
                <a href="">Contact Us</a>
              </button>
           </div>
+          <div class="drop-down-icon">
+            <a href="./blog.html" class="anchor-link">
+              <img src="./Assets/Blog/Vector (2).png" alt="">
+            </a>
+          </div>
       </nav>
   </header>
 
    
 <main class="Section-Container">
-   <div class="section-container">
+   <div class="section-container-two">
       <div class="Hero-Container">
          <h2>Explore Our Property Listings</h2>
          <p>
@@ -47,14 +57,17 @@
    
    <!-- <div class="Frame"> -->
    <div class="Frame">
-   <div class="input-field">
-     <div class="search">
-         <img src="./Assets/property/search 1.png" alt="">
-     </div>
-     <label for="search">
-         <input class="input" type="such" name="search" placeholder="Search Your Dream Property">
-     </label>
-   </div>
+          <div class="input-field">
+              <div class="search">
+                  <img src="./Assets/property/search 1.png" alt="">
+              </div>
+              <label for="search">
+                  <input class="input" type="such" name="search" placeholder="Search Your Dream Property">
+              </label>
+              <div class="bar-icon">
+                 <img src="./Assets/property/Input Field.png" alt="">
+              </div>
+          </div>
    
    <div class="Main-Content">
       <div class="Sidebar-Container">
@@ -156,7 +169,7 @@
       </div>
    
       
-   <div class="property-card">
+         <div class="property-card">
    
              <div class="component-property london">
                      <div class="parent-component">
@@ -342,7 +355,7 @@
            </div>
              </div>
    
-             <div class="component-property london">
+             <div class="component-property london mobile_remove">
                  <div class="parent-component">
                      <img src="./Assets/property/Property Image (4).png" alt="property-1">
                   <div class="button-wrapper">
@@ -388,7 +401,7 @@
            </div>
              </div>
    
-             <div class="component-property london">
+             <div class="component-property london mobile_remove">
                  <div class="parent-component">
                      <img src="./Assets/property/Property Image (5).png" alt="property-1">
                   <div class="button-wrapper">
@@ -433,7 +446,7 @@
               </div>
            </div>
              </div>
-   </div>
+         </div>
    </div>
    </div>
    
@@ -444,32 +457,34 @@
 
 <div class="comfortable-form">
    <div class="form-opacity">
-    <img src="./Assets/property/form-img.jpg" alt="">
+      <img src="./Assets/Home/form-img.jfif" alt="">
    </div>
    <div class="find-out">
-    <div class="comfort-form">
-       <h2>Need a help to find your comfort home?</h2>
-       <p>Don’t hesitate to get in touch with us and begin your journey to owning your dream home. We’re here to guide you every step of the way!</p>
-    </div>
-    <div class="form">
-       <form class="info-form" action="">
-          <label for="name">Full Name
-             <input type="text" name="name">
-          </label>
-          <label for="email">Email* 
-             <input type="email" name="email">
-          </label>
-          <label for="email">Email*
-             <input type="email" name="email">
-          </label>
-          <textarea class="textarea" name="message" id="" placeholder="Leave us a message..">
-          
-          </textarea>
-          <button class="send-msg">
-             <a href="#">Send</a>
-          </button>
-       </form>
-    </div>
+      <div class="comfort-form">
+         <h2>Need a help to find your comfort home?</h2>
+         <p>Don’t hesitate to get in touch with us and begin your journey to owning your dream home. We’re here to guide you every step of the way!</p>
+      </div>
+      <div class="form">
+         <form class="info-form" action="">
+            <div class="common-input">
+               <input type="text" name="name" placeholder="Full Name">
+            </div>
+            <div class="common-input">
+               <input type="email" name="email" placeholder="Email*">
+            </div>
+           
+            <div class="common-input">
+               <input type="email" name="email" placeholder="Email*">
+            </div>
+           
+            <div class="text_area">
+               <textarea name="message" id="message" placeholder="Leave us a message..."></textarea>
+            </div>
+            <button class="send-msg">
+               <a href="#">Send</a>
+            </button>
+         </form>
+      </div>
    </div>
 </div>
 
@@ -510,7 +525,7 @@
          </div>
       </div>
 
-      <div class="right-footer">
+      <!-- <div class="right-footer"> -->
          <div class="footer-left-nav">
             <div class="footer-nav">
                <p>Navigation</p>
@@ -544,13 +559,13 @@
                </div>
             </div>
          </div>
-      </div>
+      <!-- </div> -->
    </div>
 
    <div class="copyright">
       <div class="last-footer-logo">
          <div class="last-logo">
-            <!-- <img src="./Assets/About us/Union (1).png" alt=""> -->
+            <img src="./Assets/property/Union w (1).png" alt="">
          </div>
          <div class="last-para">
             <p>Comfea</p>
@@ -564,7 +579,7 @@
             <p>Back to top</p>
          </div>
          <div class="up-arrow">
-            <!-- <img src="./Assets/About us/bank-of-america 1.png" alt=""> -->
+            <img src="./Assets/property/Back To Top Icon (1).png" alt="">
          </div>
       </div>
    </div>

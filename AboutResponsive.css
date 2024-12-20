@@ -150,6 +150,12 @@
             width: 20.9375rem;
             height: 20.9375rem;
         }
+        .seamless h4{
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 38.4px;
+            text-align: left;
+        }
          /* client content part end */
   /* frequent part start  */
   .faq-images {
@@ -474,12 +480,14 @@
         line-height: 38.4px;
         text-align: left;
     }
-    .comfea-mode p{
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 31px;
-        text-align: left;
-        }
+    .comfea-mode {
+        width: 335px;
+        height: 140px;
+        font-size: 16px;
+    }
+.comfea-mode p {
+    font-size: 20px;
+}
     /* clients content part end */
 
     /* frequent question part start  */

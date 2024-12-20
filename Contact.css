@@ -12,8 +12,6 @@
   }
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap');
   body{
-    width: 90rem;
-    margin: 0 auto;
     font-family: "Roboto Flex", sans-serif;;
   }
 /* navigation manu start  */
@@ -57,6 +55,7 @@
     padding: 1.188rem 5rem;
     width:90rem;
     z-index: 1;
+    margin: auto;
 }
 .btn1 a {
   text-decoration: none;
@@ -70,15 +69,16 @@
     border-radius:0.625rem;
     background-color: var(--black);
 }
-
+.drop-down-icon{
+    display: none;
+}
 /* navigation manu end */
 
 /* main section container start  */
 .main-section-container {
     width: 90rem;
-    height: 57.25rem;
     padding: 5rem;
-    margin-top: 3.5rem;
+    margin: auto;
 }
 .supporting-text {
     width: 80rem;
@@ -193,7 +193,7 @@
     width: 1.25rem;
     height: 1.25rem;
     border-radius: 0.0625rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0rem;
 }
 
 .checkbox{
@@ -261,12 +261,11 @@
 .footer-section-part {
     width: 90rem;
     height: 31.875rem;
-    margin-top: 2.5rem;
+    margin: 2.5rem auto;
     background-color: var(--black);
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    margin-top: 12.5rem;
 }
 .footer-main-container {
     width: 83rem;
@@ -308,10 +307,13 @@
     font-weight: 400;
     line-height: 1.55rem;
 }
-.footer-home-left ul, .follow-us ul {
+.footer-home-left ul {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.follow-us ul li {
+    margin-bottom: 1rem;
 }
 .follow-us ul li, .footer-home-left ul li {
     list-style: none;
@@ -336,7 +338,7 @@
     padding: 1rem 0rem;
     align-items: center;
     justify-content: space-between;
-    border-top:  0.0625rem  solid rgb(116, 118, 119);
+    border-top: 0.0625rem solid rgb(116, 118, 119);
 }
 .backup p, .last-para p, .last-footer-logo p{
   color: var(--white);
@@ -347,9 +349,6 @@
    justify-content: center;
    gap: 0.1875rem;
 }
-/* footer content content area end */
-/* main content end */
-
 .footer-nav {
     display: flex;
     flex-direction: column;

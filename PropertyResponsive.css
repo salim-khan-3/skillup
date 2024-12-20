@@ -1,0 +1,437 @@
+@media(min-width:0px)and (max-width:375px){
+    /* navigation manu start  */
+    header{
+        width: 23.4375rem;
+    }
+    .navigation-menu {
+        width: 23.4375rem;
+        padding: 1.1875rem 1.25rem;
+    }
+    .connect-us {
+        display: none;
+    }
+    .contect {
+        display: none;
+    }
+    .drop-down-icon {
+        display: block;
+        width: 1.875rem;
+        height:1.875rem;
+        position: absolute;
+        right: 1.25rem;
+    }
+    /* navigation manu end */
+
+    /* main content part start  */
+    .Section-Container {
+        width: 20.4375rem;
+        height: 165.625rem;
+        padding: 3.75rem 1.25rem;
+        margin: 0;
+    }
+    .Hero-Container {
+        margin: 0;
+    }
+    .Hero-Container {
+        width: 20.9375rem;
+        height: auto;
+        gap: 0;
+        flex-direction: column;
+    }
+    .Hero-Container {
+        width: 20.9375rem;
+        height: auto;
+    }
+    .Hero-Container h2{
+        width: 100%;
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 3rem;
+    }
+    .Hero-Container p{
+        width: 100%;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.35625rem;
+        margin: 0;
+    }
+    .bar-icon {
+        display: block;
+    }
+    .input {
+       width: 16.9375rem;
+       left: 0;
+    }
+    .search {
+        left: 0.625rem;
+     }
+     .bar-icon{
+        width: 3.125rem;
+        height: 3.125rem;
+        position: relative;
+        right: -17.5rem;
+        top: -3rem;
+     }
+     .Sidebar-Container, .mobile_remove{
+        display: none;
+     } 
+     .Main-Content {
+        width: 20.9375rem;
+     }
+
+     /* property card container part start  */
+      .property-card{
+        width: 20.9375rem;
+        height: 131.25rem;
+        gap: 0;
+    }
+    .component-property{
+        width: 20.9375rem;
+        height: auto;
+        margin: 0;
+    }
+    .btn-3 a img {
+        width: 1.25rem;
+        height:1.25rem;
+    }
+    .parent-component {
+        width: 20.9375rem;
+    }
+    .parent-component img {
+        width: 20.9375rem;
+        height: 21.1875rem;
+    }
+    .house-price {
+        margin-top: -3.125rem;
+    }
+    hr {
+        width: 20.9375rem;
+    }
+    .commom-room {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+     /* property card container part end  */
+
+
+        /* contect form part start  */
+    .comfortable-form {
+        width: 23.4375rem;
+        height: 55rem;
+        padding: 2.5rem 1rem;
+        margin: 0;
+    } 
+    .form-opacity{
+        width: 21.4375rem;
+        height: 50rem;
+    }
+    .form-opacity img{
+        width: 21.4375rem;
+        height: 50rem;
+    }
+    .find-out {
+        width: 21.4375rem;
+        height:50rem;
+        top:  -50rem;
+        position: relative;
+        border-radius: 2.5rem;
+    }
+    .form {
+        width: 21.4375rem;
+        height: 50rem;
+        border-radius: 2.5rem;
+        position: absolute;
+    }
+    .info-form{
+        top: 21.875rem;
+        left: 1.25rem;
+        width: 18.9375rem;
+        padding: 1.25rem 1.25rem;
+    }
+    .common-input{
+        width: 16.9375rem;
+        height:1.5625rem ;
+    }
+    .common-input input{
+        width: 271px;
+        height: 25px;
+        padding: 5px 5px 5px 0px;
+    }
+    textarea{
+        width: 271px;
+        height: 204px;
+        padding: 20px 20px;
+        margin-top: 40px;
+    }
+    .send-msg {
+        padding: 10px 115px;
+    }
+    .comfort-form{
+        width: 303px;
+        height: 268px;
+        top: 20px;
+        left: 20px;
+    }
+     .comfort-form h2{
+        width:303px ;
+        font-weight: 500;
+        margin-left: 0;
+        font-size: 40px;
+        line-height: 48px;
+    } 
+    /* contect form part end */
+
+    /* footer content part start  */
+    .footer-section-part {
+        width: 375px;
+        height:937px;
+        margin-top: 0px;
+        padding: 56px 20px 40px 20px;
+    }
+    .footer-main-container {
+        width: 335px;
+        height: 629px;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+    .left-footer {
+        width:335px;
+        height: 326px;
+        gap: 1.5rem;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .footer-nav {
+        margin-top: 0px;
+    }
+    .agency{
+        width: 335px;
+    }
+    .agency h6 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height:38.4px;
+    }
+    .footer-contect-nav {
+        width: 335px;
+        height: 107px;
+    }
+    .follow-us {
+        width: 335px;
+    }
+    .follow-us ul{
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .footer-contect-nav  p{
+        margin:0px;
+    }
+    .footer-left-nav {
+        width: 335px;
+        height: 279px;
+        flex-direction: column;
+        gap: 0px;
+        gap: 24px;
+        align-items: flex-start;
+    }
+    .copyright {
+        width: 335px;
+        height: 172px;
+        margin: 0px;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .information-part  {
+        width: 335px;
+        height: 142px;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .general-enquries p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    /* footer content part start  */
+    /* main content part end  */
+}
+
+@media(min-width:376px)and (max-width:768px){
+    .navigation-menu{
+        width: 768px;
+        height: auto;
+        gap: 50px;
+        padding: 19px 30px;
+    }
+    /* main section part start  */
+    .Section-Container {
+        width: 48rem;
+        height: auto;
+        padding: 3.75rem 1.875rem;
+    }
+
+    /* hero section part start  */
+    .Hero-Container {
+        width: 44.25rem;
+        height: 8.125rem;
+        gap: 40px;
+        margin: 0;
+    }
+    .Hero-Container h2{
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 3rem;
+    }
+    .Hero-Container p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.35rem;
+        margin: 0;
+    }
+    /* hero section part end */
+
+    /* search section start  */
+    .input {
+        width: 650px;
+        left: 0;
+    }
+    .search {
+       left: 0.5rem; 
+    }
+    .bar-icon {
+        width: 3.125rem;
+        height:3.125rem;
+        display: block;
+        right: -41.25rem;
+        top: -3.125rem;
+        position:relative;
+    }
+    /* search section end */
+
+    /* property card part start  */
+    .Sidebar-Container{
+        display: none;
+     }
+     .property-card {
+        width: 708px;
+        height: 1500px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0px ;
+     }
+     .component-property{
+        width: 20rem;
+        height: 467px;
+    }
+    .parent-component {
+        width: 20rem;
+        height: 18.75rem;
+    }
+    .parent-component img {
+        width: 20rem;
+        height: 300px;
+    }
+    .btn-3 a img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    .location {
+        width: 20rem;
+        height: 112px;
+        margin-top: -70px;
+    }
+    .commom-room {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    hr {
+        width: 100%;
+    }
+    .Main-Content {
+        width: 708px;
+    }
+    /* property card part end */
+
+      /* contact form part start  */
+      .comfortable-form{
+        width: 768px;
+        padding: 20px;
+        margin: 0px;
+    }
+    .form-opacity img {
+        width: 728px;
+        height: 628px;
+    }
+    .comfort-form {
+       width: 375px;
+       left: 20px;
+       top: -430px;
+    }
+    .info-form{
+        width: 320px;
+        height: 428px;
+        right: 20px;
+    }
+    .common-input input{
+        width: 280px;
+    }
+    textarea{
+        width: 280px;
+        padding: 20px 20px;
+    }
+    .send-msg {
+        padding: 0.625rem 7.5rem;
+    }
+    .comfort-form h2{
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 47.6px;
+        text-align: left;
+    }
+    .comfort-form p{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24.8px;
+        text-align: left;
+    }
+    .find-out {
+        gap: 0px;
+    }
+    /* contact form part end */
+
+      /* footer content start  */
+      .footer-section-part {
+        width: 768px;
+        height: 600px;
+        margin: 0;
+        padding: 80px 20px 40px 20px;
+    }
+    .footer-main-container {
+        width: 728px;
+        height: 288px;
+        gap: 0px;
+    }
+    .information-part  {
+        width: 432px;
+        height: 132px;
+        flex-wrap: wrap;
+    }
+    .footer-left-nav {
+        width: 326px;
+        height: 230px;
+    }
+    .copyright {
+        width: 728px;
+        height: 80px;
+    }
+    .follow-us{
+        width: 70px;
+        /* height: 230px; */
+    }
+    /* footer content end */
+
+    /* main section part end  */
+
+}

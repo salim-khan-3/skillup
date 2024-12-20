@@ -32,6 +32,10 @@
    line-height: 1.6875rem;
    color: var(--white);
 }
+.comfea a {
+    text-decoration: none;
+    color: var(--white);
+}
 .union-logo {
     display: flex;
     align-items: center;

@@ -1,0 +1,333 @@
+@media(min-width:0px)and (max-width:375px){
+     /* navigation manu start  */
+     header{
+        width: 23.4375rem;
+    }
+    .navigation-menu {
+        width: 23.4375rem;
+        padding: 1.1875rem 1.25rem;
+    }
+    .connect-us {
+        display: none;
+    }
+    .contect {
+        display: none;
+    }
+    .drop-down-icon {
+        display: block;
+        width: 1.875rem;
+        height:1.875rem;
+        position: absolute;
+        right: 1.25rem;
+    }
+    /* navigation manu end */
+
+    /* categories part start  */
+    .menu {
+        display: none;
+    }
+    /* categories part end */
+
+    /* main section main container part start  */
+    .section-container {
+        width: 23.4375rem;
+        padding: 5rem 1.25rem;
+    }
+    .section{
+        width: 20.9375rem;
+        height: auto;
+        text-align: center;
+    }
+    .headline {
+        width: 20.9375rem;
+        height: auto;
+    }
+    .headline h3 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+    }
+    .headline p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .input {
+        width: 20.9375rem;
+        
+    }
+    .input-field {
+        margin: 0;
+        width: 20.9375rem;
+    }
+    .search {
+       left: -150px;
+    }
+    .right-frequent-question {
+        width: 20.9375rem;
+        height: auto;
+    }
+    .selling {
+        width: 20.9375rem;
+        height: 15.1875rem;
+    }
+/* main section main container part end */
+
+
+    /* contect form part start  */
+    .contect-section {
+        width: 23.4375rem;
+        left: -1.25rem;
+        padding:2.5rem 1rem;
+      }
+      .contect-form {
+        width: 20.9375rem;
+      }
+      .contect-form img{
+        width: 21.4375rem;
+        left: 0;
+        height: 31.375rem;
+      }
+      .contect-headiline {
+        left: 1.65rem;
+      }
+      .contect-headiline{
+        width: 18.9375rem;
+        height: 12.75rem;
+      }
+      .contect-headiline h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2.4rem;
+        text-align: center;
+    }
+    .contect-headiline  p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21.7px;
+        text-align: center;
+    }
+    .subscribe-input-field {
+        left: 2rem;
+        top: 350px;
+       
+    }
+    .last-input {
+        width: 18.9375rem;
+    }
+    .sub-btn a {
+        top: 80px; 
+        left: 0;
+        text-align: center;
+    }
+    /* contect form part end */
+
+    
+    /* footer content part start  */
+    .footer-section-part {
+        width: 375px;
+        height:937px;
+        margin: 0px;
+        padding: 56px 20px 40px 20px;
+    }
+    .footer-main-container {
+        width: 335px;
+        height: 629px;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+    .left-footer {
+        width:335px;
+        height: 326px;
+        gap: 1.5rem;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .footer-nav {
+        margin-top: 0px;
+    }
+    .agency{
+        width: 335px;
+    }
+    .agency h6 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height:38.4px;
+    }
+    .footer-contect-nav {
+        width: 335px;
+        height: 107px;
+    }
+    .follow-us {
+        width: 335px;
+    }
+    .follow-us ul{
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .footer-contect-nav  p{
+        margin:0px;
+    }
+    .footer-left-nav {
+        width: 335px;
+        height: 279px;
+        flex-direction: column;
+        gap: 0px;
+        gap: 24px;
+        align-items: flex-start;
+    }
+    .copyright {
+        width: 335px;
+        height: 172px;
+        margin: 0px;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .information-part  {
+        width: 335px;
+        height: 142px;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .general-enquries p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    /* footer content part start  */
+    
+}
+
+
+@media(min-width:376px)and (max-width:768px){
+    /* navigation part start  */
+    .navigation-menu{
+        width: 768px;
+        height: auto;
+        gap: 50px;
+        padding: 19px 30px;
+    }
+      /* navigation part end */
+
+    /* frequent question part start  */
+    .section-container {
+        width: 48rem;
+        padding: 3.75rem 1.875rem;
+        /* background-color: green; */
+    }
+    .section,    .headline {
+        width: 44.25rem;
+    }
+    .headline h3 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 3rem;
+        text-align: center;
+    }
+    .headline p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.55rem;
+        text-align: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .input {
+        width: 30rem;
+        
+    }
+    .input-field {
+       margin: 0;
+    }
+    .search {
+       left: -13.75rem;
+    }
+    .menu {
+        display: block;
+        width: 500px;
+        height:33.4375rem;
+    }
+    .FAQ-section {
+        width: 44.25rem;
+        gap: 50px;
+    }
+    .right-frequent-question {
+        width: 400px;
+        height: auto;
+    }
+    /* frequent question part end */
+
+     /* contact section part start  */
+     .contect-section {
+        width: 768px;
+        padding: 2.5rem 1rem;
+      }
+      .contect-form img {
+        width: 46rem;
+      }
+      .contect-form {
+        width: 44.25rem;
+        margin-left: 0px;
+      } 
+      .contect-headiline h2 {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 57.6px;
+        text-align: center;
+    }
+    .contect-headiline  p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: center;
+    }
+    .contect-headiline {
+        left: 30px;
+        width: 700px;
+    }
+    .subscribe-input-field {
+        left: 18%;
+    }
+    /* contact section part end */
+
+       /* footer content start  */
+       .footer-section-part {
+        width: 768px;
+        height: 600px;
+        margin: 0;
+        padding: 80px 20px 40px 20px;
+    }
+    .footer-main-container {
+        width: 728px;
+        height: 288px;
+        gap: 20px;
+    }
+    .information-part  {
+        width: 432px;
+        height: 132px;
+        flex-wrap: wrap;
+    }
+    .footer-left-nav {
+        width: 280px;
+        height: 230px;
+    }
+    .copyright {
+        width: 728px;
+        height: 80px;
+    }
+    .follow-us{
+        width: 70px;
+        /* height: 230px; */
+    }
+    .right-footer {
+        width: 280px;
+    }
+    /* footer content end */
+  
+}

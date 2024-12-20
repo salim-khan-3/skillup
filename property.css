@@ -12,9 +12,6 @@
   }
   @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Grotesk:wght@300..700&display=swap');
   body{
-    width: 90rem;
-    /* height: 7050px; */
-    margin: 0 auto;
     font-family: "Roboto Flex", sans-serif;;
   }
 /* navigation manu start  */
@@ -45,6 +42,10 @@
     font-weight: 400;
     padding: 0.25rem 0.625rem;
 }
+.comfea a {
+    text-decoration: none;
+    color: var(--black);
+}
 .connect-us ul {
     display: flex;
     align-items: center;
@@ -57,6 +58,7 @@
     gap: 20.75rem;
     padding: 1.188rem 5rem;
     width: 90rem;
+    margin: auto;
 }
 .btn1 a {
   text-decoration: none;
@@ -70,12 +72,15 @@
     border-radius:0.625rem;
     background-color: var(--black);
 }
-
+.drop-down-icon {
+    display: none;
+}
 /* navigation manu end */
 /* main content start  */
 .Section-Container {
     width: 90rem;
     padding-top: 80px;
+    margin: auto;
 }
 .Hero-Container {
     display: flex;
@@ -104,14 +109,16 @@
     border: 0.0625rem solid var(--black);
     border-radius: 0.75rem;
     position: relative;
-    left: 5rem;
-    
+    left: 5rem;  
 }
 .search {
    position: relative;
    left: 5.45rem;
    top:2.5rem;
    z-index: 1;
+}
+.bar-icon {
+    display: none;
 }
 .Frame {
     margin-top: 3.5rem;
@@ -321,37 +328,33 @@ hr {
 }
 
 /* house price end */
-
 /* form part start  */
 .comfortable-form {
     width: 90rem;
-    height: 45.5rem;
-    padding: 2.5rem 0px 0px 1rem;
-    /* margin-left: -5rem; */
-    margin: -5rem auto;
+    padding: 120px 0px 0px 0px;
+    margin: auto;
 }
 .find-out {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    /* background-color: black; */
 }
 .form-opacity img{
-    width: 88.07rem;
-    height: 40.5rem;
-    margin-top: 10.125rem;
-    border-radius: 2.25rem;
-    opacity: 0.7 rgba(0, 0, 0, 0.42);
+    width: 1409px;
+    height: 648px;
+    border-radius: 36px;
+    opacity: 0.7  rgba(0, 0, 0, 0.42);
     position:relative;  
 }
 .comfort-form{
     color: var(--white);
-    position: relative;
+    position: absolute;
     top: -31.25rem;
     left: 3.5rem;
     width: 39rem;
-    height: 15rem;
-    padding: 2.5rem 1rem;
+    height:15rem;
 }
 .comfort-form h2{
     font-weight: 500;
@@ -361,58 +364,64 @@ hr {
 .comfort-form p{
     font-weight: 400;
     font-size: 1.25rem;
-    line-height: 1.94rem;
+    line-height:1.9375rem;
     margin-top: 1.5rem;
 }
 .info-form{
     width: 27.75rem;
-    height:26.75rem;
+    height: 26.75rem;
     padding: 0rem 1.5rem;
     position: absolute;
     right: 6.25rem;
     top: -33.75rem;
     background-color: var(--white);
     border-radius: 1.5rem;
+    margin-bottom: 0px;
 }
 .info-form input {
-    width: 18.5rem;
-    height: 1.75rem;
+    width:18.5rem;
+    height: 1.5625rem;
     margin-top: 1rem;
     border: none;
     outline: none;
     background-color: var(--white);
 }
-.textarea{
+textarea{
     margin-top: 1rem;
-    width:24.75rem;
+    width: 24.75rem;
     height: 12.75rem;
+    border: 1px solid var(--grey);
+    outline: none;
     background-color: var(--white);
 }
 .send-msg {
-    padding: 0.625rem 11.19rem;
+    padding: 0.625rem 11.2187rem;
     background-color: var(--black);
     margin-top: 1rem;
     border-radius:0.75rem;
 }
+.D_hideable_part{
+    display: none;
+}
 .send-msg a{
     color: var(--white);
     text-decoration: none;
-    font-size: 1rem;
+    font-size:1rem;
     font-weight: 500;
 }
 /* form part end */
+
 
 
 /* footer content content area start  */
 .footer-section-part {
     width: 90rem;
     height: 31.875rem;
-    margin-top: 2.5rem;
+    margin: 2.5rem auto;
     background-color: var(--black);
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    margin-top: 15rem;
 }
 .footer-main-container {
     width: 83rem;
@@ -454,10 +463,13 @@ hr {
     font-weight: 400;
     line-height: 1.55rem;
 }
-.footer-home-left ul, .follow-us ul {
+.footer-home-left ul {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.follow-us ul li {
+    margin-bottom: 1rem;
 }
 .follow-us ul li, .footer-home-left ul li {
     list-style: none;
@@ -482,7 +494,7 @@ hr {
     padding: 1rem 0rem;
     align-items: center;
     justify-content: space-between;
-    border-top:  0.0625rem  solid rgb(116, 118, 119);
+    border-top: 0.0625rem solid rgb(116, 118, 119);
 }
 .backup p, .last-para p, .last-footer-logo p{
   color: var(--white);

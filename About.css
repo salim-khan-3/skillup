@@ -45,7 +45,7 @@
 .connect-us ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .navigation-menu{
     display: flex;
@@ -53,8 +53,12 @@
     justify-content: space-between;
     gap: 20.75rem;
     padding: 1.188rem 5rem;
-    width: 90rem;
+    width: 1440px;
     margin: auto;
+}
+.anchor-link {
+    text-decoration: none;
+    color: var(--black);
 }
 .btn1 a {
   text-decoration: none;

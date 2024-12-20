@@ -1,0 +1,174 @@
+@media(min-width:0px)and (max-width:375px){
+       /* navigation manu start  */
+       header{
+        width: 23.4375rem;
+    }
+    .navigation-menu {
+        width: 23.4375rem;
+        padding: 1.1875rem 1.25rem;
+    }
+    .connect-us {
+        display: none;
+    }
+    .contect {
+        display: none;
+    }
+    .drop-down-icon {
+        display: block;
+        width: 1.875rem;
+        height:1.875rem;
+        position: absolute;
+        right: 1.25rem;
+    }
+    /* navigation manu end */
+
+    /* main container part start  */
+    .main-section-container {
+        width: 23.4375rem;
+        height: auto;
+        padding: 2.5rem 1.25rem;
+    }
+    .form, .main-form {
+        width: 20.9375rem;
+    }
+    .supporting-text {
+        width: 20.9375rem;
+    }
+    .supporting-text h3 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+    }
+    .supporting-text  p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.8px;
+        text-align: center;       
+    }
+    .Contant-form {
+        width: 20.9375rem;
+        height: auto;
+        flex-direction: column;
+        gap: 6rem;
+    }
+    .name {
+        width: 20.9375rem;
+        flex-direction: column;
+    }
+    .input-name{
+        width:15.625rem;
+     }
+     .email-input {
+        width: 20.9375rem;
+    } 
+     .email{
+        width: 20.9375rem;
+     }
+    .phone-number {
+        width: 20.9375rem;
+     } 
+     .message-container {
+        width: 20.9375rem;
+    }
+    .message {
+        width: 20.9375rem;
+    }
+    .textarea {
+      width: 20.9375rem;
+    }
+    #checkbox {
+        width: 1.25rem;
+        height: 1.25rem;
+        border-radius: 0.0625rem;
+        margin-bottom: 2rem;
+    }
+    .checkbox {
+        width: 20.9375rem;
+    }
+    .send-message {
+        width: 20.9375rem;
+    }
+    .btn4 {
+        width: 100%;
+    }
+    .social-property {
+        width: 20.9375rem;
+        height: auto;
+    }
+    /* footer content part start  */
+    .footer-section-part {
+        width: 375px;
+        height:937px;
+        margin: 0px;
+        padding: 56px 20px 40px 20px;
+    }
+    .footer-main-container {
+        width: 335px;
+        height: 629px;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+    .left-footer {
+        width:335px;
+        height: 326px;
+        gap: 1.5rem;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .footer-nav {
+        margin-top: 0px;
+    }
+    .agency{
+        width: 335px;
+    }
+    .agency h6 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height:38.4px;
+    }
+    .footer-contect-nav {
+        width: 335px;
+        height: 107px;
+    }
+    .follow-us {
+        width: 335px;
+    }
+    .follow-us ul{
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .footer-contect-nav  p{
+        margin:0px;
+    }
+    .footer-left-nav {
+        width: 335px;
+        height: 279px;
+        flex-direction: column;
+        gap: 0px;
+        gap: 24px;
+        align-items: flex-start;
+    }
+    .copyright {
+        width: 335px;
+        height: 172px;
+        margin: 0px;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .information-part  {
+        width: 335px;
+        height: 142px;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .general-enquries p {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    /* footer content part start  */
+    /* main container part end  */
+}
