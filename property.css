@@ -331,7 +331,7 @@ hr {
 /* form part start  */
 .comfortable-form {
     width: 90rem;
-    padding: 120px 0px 0px 0px;
+    padding: 2.5rem 1rem;
     margin: auto;
 }
 .find-out {
@@ -417,7 +417,7 @@ textarea{
 .footer-section-part {
     width: 90rem;
     height: 31.875rem;
-    margin: 2.5rem auto;
+    margin: auto;
     background-color: var(--black);
     display: flex;
     flex-direction: column;
@@ -496,6 +496,10 @@ textarea{
     justify-content: space-between;
     border-top: 0.0625rem solid rgb(116, 118, 119);
 }
+.back_top {
+    display: flex;
+    gap: 1rem;
+}
 .backup p, .last-para p, .last-footer-logo p{
   color: var(--white);
 }
@@ -505,12 +509,13 @@ textarea{
    justify-content: center;
    gap: 0.1875rem;
 }
-/* footer content content area end */
-/* main content end */
-
 .footer-nav {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-top: 5rem;
+}
+.footer-contect-nav {
+    display: flex;
+    flex-direction: column;
 }

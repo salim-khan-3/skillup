@@ -112,6 +112,7 @@
         align-items: flex-start;
     }
      /* property card container part end  */
+      /* main content part end  */
 
 
         /* contect form part start  */
@@ -186,7 +187,7 @@
         width: 375px;
         height:937px;
         margin-top: 0px;
-        padding: 56px 20px 40px 20px;
+        padding: 0px 20px 0px 20px;
     }
     .footer-main-container {
         width: 335px;
@@ -254,8 +255,8 @@
         font-weight: 500;
         line-height: 20px;
     }
-    /* footer content part start  */
-    /* main content part end  */
+    /* footer content part end */
+   
 }
 
 @media(min-width:376px)and (max-width:768px){
@@ -319,7 +320,7 @@
         height: 1500px;
         align-items: flex-start;
         justify-content: flex-start;
-        margin: 0px ;
+        margin: 0;
      }
      .component-property{
         width: 20rem;
@@ -340,7 +341,7 @@
     .location {
         width: 20rem;
         height: 112px;
-        margin-top: -70px;
+        /* margin-top: -70px; */
     }
     .commom-room {
         flex-direction: column;
@@ -353,6 +354,7 @@
         width: 708px;
     }
     /* property card part end */
+        /* main section part end  */
 
       /* contact form part start  */
       .comfortable-form{
@@ -404,34 +406,57 @@
       /* footer content start  */
       .footer-section-part {
         width: 768px;
-        height: 600px;
+        height: 528px;
         margin: 0;
-        padding: 80px 20px 40px 20px;
+        gap: 40px;
+        padding: 80px 1rem 1rem 1rem;
     }
     .footer-main-container {
-        width: 728px;
-        height: 288px;
-        gap: 0px;
+        height: 288px ;
+        width: 736px;
+        gap: 40px;
+    }
+    .left-footer {
+        margin: 0;
+        width: 430px;
+        height: 100%;
+        gap: 3rem;
+    }
+    .agency h6 {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 38.4px;
+        text-align: left;
     }
     .information-part  {
-        width: 432px;
-        height: 132px;
+        gap: 1rem;
         flex-wrap: wrap;
     }
     .footer-left-nav {
-        width: 326px;
-        height: 230px;
+        width: 300px;
+        height: 100%;
+        gap: 0;
+    }
+    .footer-nav {
+        width: 190px;
+        height: 100%;
+        gap: 1.5rem;
+        margin: 0;
+    }
+    .footer-contect-nav {
+        gap: 1.5rem;
+        width: 5.7rem;
+        height: 100%;
+    }
+    .footer-contect-nav  p{
+        margin:0;
+    }
+    .follow-us {
+        width: 5.7rem;   
     }
     .copyright {
-        width: 728px;
-        height: 80px;
-    }
-    .follow-us{
-        width: 70px;
-        /* height: 230px; */
+        width: 736px;
+        margin: 0;
     }
     /* footer content end */
-
-    /* main section part end  */
-
 }

@@ -96,79 +96,79 @@
         width: 20.9375rem;
         height: auto;
     }
-    /* footer content part start  */
-    .footer-section-part {
-        width: 375px;
-        height:937px;
-        margin: 0px;
-        padding: 56px 20px 40px 20px;
-    }
-    .footer-main-container {
-        width: 335px;
-        height: 629px;
-        flex-direction: column;
-        gap: 10px;
-        margin: 0;
-    }
-    .left-footer {
-        width:335px;
-        height: 326px;
-        gap: 1.5rem;
-        flex-direction: column;
-        margin-top: 5rem;
-    }
-    .footer-nav {
-        margin-top: 0px;
-    }
-    .agency{
-        width: 335px;
-    }
-    .agency h6 {
-        font-size: 32px;
-        font-weight: 400;
-        line-height:38.4px;
-    }
-    .footer-contect-nav {
-        width: 335px;
-        height: 107px;
-    }
-    .follow-us {
-        width: 335px;
-    }
-    .follow-us ul{
-        display: flex;
-        gap: 16px;
-        flex-wrap: wrap;
-    }
-    .footer-contect-nav  p{
-        margin:0px;
-    }
-    .footer-left-nav {
-        width: 335px;
-        height: 279px;
-        flex-direction: column;
-        gap: 0px;
-        gap: 24px;
-        align-items: flex-start;
-    }
-    .copyright {
-        width: 335px;
-        height: 172px;
-        margin: 0px;
-        gap: 24px;
-        flex-direction: column;
-    }
-    .information-part  {
-        width: 335px;
-        height: 142px;
-        flex-wrap: wrap;
-        gap: 24px;
-    }
-    .general-enquries p {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 20px;
-    }
-    /* footer content part start  */
+   /* footer content part start  */
+   .footer-section-part {
+    width: 375px;
+    height:937px;
+    margin-top: 0px;
+    padding: 0px 20px 0px 20px;
+}
+.footer-main-container {
+    width: 335px;
+    height: 629px;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+.left-footer {
+    width:335px;
+    height: 326px;
+    gap: 1.5rem;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.footer-nav {
+    margin-top: 0px;
+}
+.agency{
+    width: 335px;
+}
+.agency h6 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height:38.4px;
+}
+.footer-contect-nav {
+    width: 335px;
+    height: 107px;
+}
+.follow-us {
+    width: 335px;
+}
+.follow-us ul{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.footer-contect-nav  p{
+    margin:0px;
+}
+.footer-left-nav {
+    width: 335px;
+    height: 279px;
+    flex-direction: column;
+    gap: 0px;
+    gap: 24px;
+    align-items: flex-start;
+}
+.copyright {
+    width: 335px;
+    height: 172px;
+    margin: 0px;
+    gap: 24px;
+    flex-direction: column;
+}
+.information-part  {
+    width: 335px;
+    height: 142px;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.general-enquries p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+/* footer content part end */
     /* main container part end  */
 }
